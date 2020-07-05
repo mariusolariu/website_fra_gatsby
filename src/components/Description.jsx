@@ -4,7 +4,7 @@ import Slideshow from "./Slideshow";
 export default function Description() {
   return (
     <div>
-      <div id="descriere" style={{ marginBottom: 1 + "em", margin: "2%", paddingTop: 2 + "em", float: 'left', maxWidth: 330 + "px" }}>
+      <div id="descriere" style={{ marginBottom: 1 + "em", margin: "2%", paddingTop: 2 + "em", float: 'left', width: 330 + "px" }}>
         <strong> Dr. Olariu Ioan</strong><br />
         Medic Specialist Cardiolog<br />
         Institutul de Boli Cardiovasculare Timisoara<br />
@@ -16,7 +16,7 @@ export default function Description() {
 
       </div >
 
-      <div id="slideshowWrapper" style={{ width: 50 + "%", height: 50 + "%", float: "right" }}>
+      <div id="slideshowWrapper" style={{ width: 100 + "vh", maxWidth: 360 + "px", height: 80 + "%", float: "right", border: "1px solid black" }}>
         <Slideshow />
       </div>
 

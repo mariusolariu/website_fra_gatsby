@@ -5,8 +5,8 @@ import Header from "../components/Header";
 
 export default function Home() {
   return <Layout>
+    <Header />
     <div id="content" style={{ paddingLeft: 2.5 + "em" }}>
-      <Header />
       <Description />
     </div>
   </Layout >

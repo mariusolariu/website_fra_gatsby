@@ -1,50 +1,45 @@
-import React, { useState } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Img from "gatsby-image";
+import React from 'react';
+import { MyImage } from './MyImage';
 
-export default function Slideshow() {
-  const changePhoto = () => {
-
+export default class Slideshow2 extends React.Component {
+  state = {
+    photoIndex: 0,
+    images: [],
   }
 
-  const drOl = useStaticQuery(graphql`
-query MyQueryTwo {
-  file(relativePath: {eq: "descriereSlideshow/1_drOlariu.jpeg"}) {
-    childImageSharp {
-      fluid {
-        aspectRatio
-        base64
-        sizes
-        src
-        srcSet
-      }
-    }
+  changePhoto = () => {
+    let { photoIndex, images } = this.state;
+    photoIndex = ++photoIndex % images.length;
+
+    this.setState({
+      photoIndex
+    });
   }
+
+  componentDidMount = () => {
+    const { imagesRelPaths } = this.props;
+
+    const images = imagesRelPaths.map((relativePath) => (
+      <MyImage
+        filename={`${relativePath}`}
+        alt="website image"
+      />
+    ));
+
+    this.setState({ images })
+
+    setInterval(this.changePhoto, 3000);
+  }
+
+  render() {
+    const { photoIndex, images } = this.state;
+    return (
+      <div style={{ maxWidth: 400 + "px", maxHeight: 400 + "px" }}>
+        {
+          images.length > 0 && images[photoIndex]
+        }
+      </div>
+    )
+  }
+
 }
-`);
-
-  return (
-    <div style={{ maxWidth: 400 + "px", maxHeight: 400 + "px" }}>
-      <Img fluid={drOl.file.childImageSharp.fluid} alt="The website header"></Img>
-    </div>
-  );
-}
-
-
-
-
-// export const drOlSur = graphql`
-// query drOlSur {
-//   file(relativePath: {eq: "descriereSlideshow/2_surgery.jpg"}) {
-//     childImageSharp {
-//       fluid {
-//         aspectRatio
-//         base64
-//         sizes
-//         src
-//         srcSet
-//       }
-//     }
-//   }
-// }
-// `;

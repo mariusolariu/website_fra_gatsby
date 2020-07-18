@@ -3,12 +3,21 @@ import Layout from "../components/Layout";
 import Description from "../components/Description";
 import Header from "../components/Header";
 import GeneralSlideshow from "../components/GeneralSlideshow";
+import Cabinete from '../components/Cabinente';
 
 export default function Home() {
 
   return <Layout>
     <Header />
-    <div id="content" style={{ paddingLeft: 2.5 + "em", paddingRight: 2.5 + "em", paddingBottom: 2.5 + "em" }}>
+    <div
+      id="content"
+      style={{
+        paddingTop: 1 + "%",
+        paddingLeft: 10 + "%",
+        paddingRight: 10 + "%",
+        paddingBottom: 5 + "em",
+        backgroundColor: "#F9F9F9"
+      }}>
       <Description />
 
       <div style={{ clear: "both" }}> </div>
@@ -27,6 +36,7 @@ export default function Home() {
       <GeneralSlideshow />
       {/* </div> */}
 
+      <Cabinete />
 
     </div>
   </Layout >

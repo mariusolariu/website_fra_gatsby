@@ -32,7 +32,7 @@ export default class GeneralSlideshow extends React.Component {
         height: 500 + "px",
         maxWidth: 800 + "px",
         marginTop: 2 + "em",
-        paddingLeft: 6 + "%",
+        // border: "1px solid green"
       }}>
         {
           this.images.length > 0 && this.images[photoIndex]

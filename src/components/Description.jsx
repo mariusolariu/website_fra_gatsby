@@ -8,8 +8,6 @@ export default function Description() {
     <div>
       <div id="descriere" style={{
         marginBottom: 1 + "em",
-        margin: "2%",
-        paddingLeft: 5 + "%",
         width: 330 + "px",
         float: "left",
       }}>
@@ -28,7 +26,6 @@ export default function Description() {
         height: 300 + "px",
         width: 300 + "px",
         maxWidth: 300 + "px",
-        paddingRight: 6 + "%",
         float: "right"
       }}>
         <DrOlariu />

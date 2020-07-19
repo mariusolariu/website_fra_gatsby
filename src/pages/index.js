@@ -15,12 +15,11 @@ export default function Home() {
         paddingTop: 1 + "%",
         paddingLeft: 10 + "%",
         paddingRight: 10 + "%",
-        paddingBottom: 5 + "em",
-        backgroundColor: "#F9F9F9"
+        paddingBottom: 2 + "em",
+        backgroundColor: "#F9F9F9",
       }}>
       <Description />
 
-      <div style={{ clear: "both" }}> </div>
 
       {/* <div id="slideshowWrapper" style={{
         backgroundColor: "#222323",

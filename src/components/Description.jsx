@@ -1,6 +1,4 @@
 import React from "react";
-import Slideshow from "./GeneralSlideshow";
-import { MyImage } from "./MyImage";
 import DrOlariu from "./imageComponents/DrOlariu";
 
 export default function Description() {
@@ -16,9 +14,7 @@ export default function Description() {
         Institutul de Boli Cardiovasculare Timișoara<br />
         Competență în Cardiologie Invazivă <br />
         Competență în Ecocardiografie<br />
-        <a
-          href="https://www.facebook.com/CabinetCardiologic/?eid=ARBXsJA-PukiHIlKczHx4WirPc30MQ0lPCoO9cfPhPEVz_GqmOxPip8yAFACwY-ZR3fGhpRtel-bnhXM">Vezi
-  pagina de Facebook a cabinetului</a>
+        <a href="https://www.facebook.com/CabinetCardiologic/?eid=ARBXsJA-PukiHIlKczHx4WirPc30MQ0lPCoO9cfPhPEVz_GqmOxPip8yAFACwY-ZR3fGhpRtel-bnhXM">Vezi pagina de Facebook a cabinetului</a>
 
       </div >
 

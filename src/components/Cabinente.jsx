@@ -12,7 +12,7 @@ export default function Cabinete() {
       { title: "Consult cardiologic + Monitorizare Holter Ekg/24H", price: "300 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", price: "300 RON" },
       { title: "Consult cardiologic + Ecocardiografie Doppler/2D Color + Pulsoximetrie", price: "350 RON" },
-      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA 24/H", price: "400 RON" }
+      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", price: "400 RON" }
     ],
     paddingTopTable: 0.35 + "em",
   }
@@ -28,18 +28,14 @@ export default function Cabinete() {
       { title: "Consult Cardiologic + Monitorizare Holter EKG / 24H", price: "250 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", price: "250 RON" },
       { title: "Consult cardiologic inițial + Ecocardiografie Doppler/2D Color + Pulsoximetrie", price: "350 RON" },
-      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA 24/H", price: "400 RON" }
+      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", price: "400 RON" }
     ],
     paddingTopTable: 0 + "em",
   }
 
   return (
     <>
-      <div
-        style={{
-          backgroundColor: "#F9F9F9",
-        }}
-      >
+      <div>
         <div
           style={{
             float: "left",
@@ -61,6 +57,9 @@ export default function Cabinete() {
             {...cabinetBocsaData}
           />
         </div>
+
+        <div style={{ clear: "both" }}> </div>
+
       </div>
 
     </>

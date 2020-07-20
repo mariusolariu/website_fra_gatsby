@@ -3,14 +3,14 @@ import Gallery from './Gallery';
 
 const photos = [
   {
-    src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/1_drOlariu_200.jpg?raw=true',
-    width: 1,
-    height: 1
+    src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/1_drOlariu.jpg?raw=true',
+    width: 4927,
+    height: 1000
   },
   {
     src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/descriereSlideshow/3_surgery.jpeg?raw=true',
-    width: 1,
-    height: 1
+    width: 4927,
+    height: 1000
   }
 ];
 
@@ -91,7 +91,7 @@ export default function Cabinet({
       </table>
       <Gallery
         photos={photos}
-        direction="row"
+
       />
     </div>
   )

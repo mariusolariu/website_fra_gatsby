@@ -18,7 +18,11 @@ export default function App({ photos }) {
 
   return (
     <div>
-      <Gallery photos={photos} onClick={openLightbox} />
+      <Gallery
+        photos={photos}
+        onClick={openLightbox}
+        columns={2}
+      />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>

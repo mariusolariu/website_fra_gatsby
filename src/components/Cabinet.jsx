@@ -1,12 +1,11 @@
 import React from 'react';
 import Gallery from './Gallery';
-import MyGallery from './MyGallery';
 
 const photos = [
   {
-    src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/descriereSlideshow/2_surgery.jpeg?raw=true',
-    width: 0.5,
-    height: 0.5
+    src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/1_drOlariu_200.jpg?raw=true',
+    width: 1,
+    height: 1
   },
   {
     src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/descriereSlideshow/3_surgery.jpeg?raw=true',
@@ -90,10 +89,10 @@ export default function Cabinet({
           }
         </tbody>
       </table>
-        <Gallery
-          photos={photos}
-          direction="row"
-        />
+      <Gallery
+        photos={photos}
+        direction="row"
+      />
     </div>
   )
 }

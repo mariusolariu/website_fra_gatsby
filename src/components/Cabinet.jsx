@@ -1,20 +1,6 @@
 import React from 'react';
 import Gallery from './Gallery';
 
-const photos = [
-  {
-    src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/1_drOlariu.jpg?raw=true',
-    width: 4927,
-    height: 1000
-  },
-  {
-    src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/descriereSlideshow/3_surgery.jpeg?raw=true',
-    width: 4927,
-    height: 1000
-  }
-];
-
-
 const myRow = (what, info) => {
   return (
     <>
@@ -38,13 +24,18 @@ const whiteBackground = {
   backgroundColor: "#ffffff"
 }
 
+const centerTextStyle = {
+  textAlign: "center"
+};
 export default function Cabinet({
   title,
   address,
   workingHours,
   appoinmentsPhoneNumbers,
   services,
-  paddingTopTable
+  paddingTopTable,
+  paddingBottomTable,
+  photos
 }) {
 
   return (
@@ -53,9 +44,7 @@ export default function Cabinet({
         paddingTop: 2 + "em"
       }}
     >
-      <h3 style={{
-        textAlign: "center"
-      }}>{title}</h3>
+      <h3 style={centerTextStyle}>{title}</h3>
       {myRow('Adresa', address)}
       {myRow('Program', workingHours)}
       {myRow('Programări', appoinmentsPhoneNumbers)}
@@ -89,9 +78,12 @@ export default function Cabinet({
           }
         </tbody>
       </table>
+
+      <p style={{ paddingBottom: paddingBottomTable }}>  </p>
+
+      <h4 style={centerTextStyle}>Poze {title}:</h4>
       <Gallery
         photos={photos}
-
       />
     </div>
   )

@@ -21,7 +21,6 @@ export default function App({ photos }) {
       <Gallery
         photos={photos}
         onClick={openLightbox}
-        columns={2}
       />
       <ModalGateway>
         {viewerIsOpen ? (

@@ -4,7 +4,7 @@ import Cabinet from './Cabinet';
 export default function Cabinete() {
   const cabinetTimisoaraData = {
     title: "Cabinet Timișoara",
-    address: "Timișoara, Bulevardul Cetatii, Nr. 77",
+    address: "Timișoara, Bulevardul Cetății, Nr. 77",
     workingHours: "Luni 15:00 – 17:00",
     appoinmentsPhoneNumbers: "0740 384 798, 0742 421 032",
     services: [

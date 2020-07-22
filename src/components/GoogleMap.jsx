@@ -9,12 +9,12 @@ export default function GoogleMap({ url, city, anchorId }) {
         style={{
           border: 0,
         }}
-        tabindex="0"
+        title={`Locația pe hartă a cabinetului din ${city}`}
         src={`${url}`}
         width="100%"
         height="450"
-        frameborder="0"
-        allowfullscreen="allowfullscreen"
+        frameBorder="0"
+        allowFullScreen="allowFullScreen"
         aria-hidden="false">
       </iframe>
     </div>

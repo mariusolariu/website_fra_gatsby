@@ -48,7 +48,7 @@ export default function Cabinet({
     >
       <h3 style={centerTextStyle}>{title}</h3>
       {myRow('Adresa', address)}
-      <a href={`${locationUrl}`} target="_blank"> Vezi pe hartă adresa</a>
+      <a href={`${locationUrl}`} target="_blank" rel="noreferrer"> Vezi pe hartă adresa</a>
       <br />
       {myRow('Program', workingHours)}
       {myRow('Programări', appoinmentsPhoneNumbers)}

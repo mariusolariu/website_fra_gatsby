@@ -5,11 +5,19 @@ import Header from "../components/Header";
 import GeneralSlideshow from "../components/GeneralSlideshow";
 import Cabinete from '../components/Cabinente';
 import GoogleMap from '../components/GoogleMap';
+import { Helmet } from "react-helmet";
 
 export default function Home() {
 
   return <Layout>
     <Header />
+    <div className="application">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cabinet Cardiologie dr. Olariu Ioan</title>
+        <meta name="description" content="Informații utile despre cabinetele doctorului Olariu Ioan" />
+      </Helmet>
+    </div>
     <div
       id="content"
       style={{

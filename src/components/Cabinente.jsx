@@ -16,6 +16,8 @@ export default function Cabinete() {
     ],
     paddingTopTable: 0.35 + "em",
     paddingBottomTable: 0.5 + "em",
+    anchorId: "timisoaraMap",
+    locationUrl: "https://g.page/CardiologieTimisoara?share",
     photos: [
       {
         src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetTimisoara/tim0.jpeg?raw=true',
@@ -74,6 +76,8 @@ export default function Cabinete() {
     ],
     paddingTopTable: 0 + "em",
     paddingBottomTable: 0.5 + "em",
+    anchorId: 'bocsaMap',
+    locationUrl: "https://g.page/CardiologieBocsa?share",
     photos: [
       {
         title: 'Click pentru marire',

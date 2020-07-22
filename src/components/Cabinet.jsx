@@ -35,7 +35,9 @@ export default function Cabinet({
   services,
   paddingTopTable,
   paddingBottomTable,
-  photos
+  photos,
+  anchorId,
+  locationUrl
 }) {
 
   return (
@@ -46,6 +48,8 @@ export default function Cabinet({
     >
       <h3 style={centerTextStyle}>{title}</h3>
       {myRow('Adresa', address)}
+      <a href={`${locationUrl}`} target="_blank"> Vezi pe hartă adresa</a>
+      <br />
       {myRow('Program', workingHours)}
       {myRow('Programări', appoinmentsPhoneNumbers)}
 

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/website_fra_gatsby",
   siteMetadata: {
     title: `Cabinet Cardiologie Dr. Olariu Ioan`,
     author: `Marius Olariu`,
@@ -27,6 +28,19 @@ module.exports = {
       options: {
         lang: 'ro'
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Cabinet Cardiologie dr. Olariu Ioan`,
+        short_name: `Dr Olariu`,
+        start_url: `/`,
+        background_color: `#6b37bf`,
+        theme_color: `#6b37bf`,
+        display: `standalone`,
+        icon: `src/images/icon.jpg`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }

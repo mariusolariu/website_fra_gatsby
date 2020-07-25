@@ -89,7 +89,9 @@ export default function Cabinet({
       <Gallery
         images={images}
         enableImageSelection={false}
-        rowHeight={100}
+        backdropClosesModal={true}
+        imageCountSeparator=" din "
+        rowHeight={120}
         margin={5}
         showLightboxThumbnails
       />

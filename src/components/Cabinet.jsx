@@ -1,5 +1,5 @@
 import React from 'react';
-import Gallery from './Gallery';
+import Gallery from 'react-grid-gallery';
 
 const myRow = (what, info) => {
   return (
@@ -35,8 +35,7 @@ export default function Cabinet({
   services,
   paddingTopTable,
   paddingBottomTable,
-  photos,
-  anchorId,
+  images,
   locationUrl
 }) {
 
@@ -86,8 +85,13 @@ export default function Cabinet({
       <p style={{ paddingBottom: paddingBottomTable }}>  </p>
 
       <h4 style={centerTextStyle}>Poze {title}:</h4>
+
       <Gallery
-        photos={photos}
+        images={images}
+        enableImageSelection={false}
+        rowHeight={100}
+        margin={5}
+        showLightboxThumbnails
       />
     </div>
   )

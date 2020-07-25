@@ -33,6 +33,8 @@ export default function Home() {
 
       <Cabinete />
 
+      <div style={{ clear: 'both' }} />
+
       <GoogleMap
         url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.592877972837!2d21.21576677386085!3d45.76799685044767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47456788946f41af%3A0x366cae4f50aaf37f!2sCABINET%20CARDIOLOGIE%20Dr.%20OLARIU%20IOAN!5e0!3m2!1sen!2suk!4v1593256507419!5m2!1sen!2suk"
         city="Timișoara"

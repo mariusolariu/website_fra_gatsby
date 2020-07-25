@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/website_fra_gatsby",
   siteMetadata: {
     title: `Cabinet Cardiologie Dr. Olariu Ioan`,
     author: `Marius Olariu`,

@@ -32,7 +32,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cabinet Cardiologie dr. Olariu Ioan`,
-        short_name: `Dr Olariu`,
+        short_name: `Dr. Olariu`,
         start_url: `/`,
         background_color: `#6b37bf`,
         theme_color: `#6b37bf`,

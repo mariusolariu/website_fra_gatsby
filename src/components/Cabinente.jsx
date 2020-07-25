@@ -8,7 +8,7 @@ export default function Cabinete() {
     workingHours: "Luni 15:00 – 17:00",
     appoinmentsPhoneNumbers: "0740 384 798, 0742 421 032",
     services: [
-      { title: "Consult cardiologic inițial + EKG + Pulsoximetrie", price: "200 RON" },
+      { title: "Consult cardiologic + EKG + Pulsoximetrie", price: "200 RON" },
       { title: "Consult cardiologic + Monitorizare Holter Ekg/24H", price: "300 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", price: "300 RON" },
       { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie", price: "350 RON" },
@@ -85,7 +85,7 @@ export default function Cabinete() {
     appoinmentsPhoneNumbers: "0757 488 541, 0255 525 403, 0742 421 032",
     services: [
       { title: "Consult cardiologic inițial + EKG + Pulsoximetrie", price: "200 RON" },
-      { title: "Consult cardiologic inițial + Ecocardiografie Doppler/2D Color + Pulsoximetrie", price: "350 RON" },
+      { title: "Consult cardiologic inițial + EKG + Ecocardiografie Doppler/2D Color + Pulsoximetrie", price: "350 RON" },
       { title: "Control cardiologic + EKG + Pulsoximetrie", price: "150 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter EKG/24H", price: "250 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", price: "250 RON" },

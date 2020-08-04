@@ -12,10 +12,12 @@ export default function Cabinete() {
       { title: "Consult cardiologic + Monitorizare Holter Ekg/24H", price: "300 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", price: "300 RON" },
       { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie", price: "350 RON" },
-      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", price: "400 RON" }
+      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", price: "400 RON" },
+      { title: "Consult cardiologic + EKG + Pulsoximetrie + Test de Efort Cardiovascular", price: "400 RON" },
+      { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie + Test de Efort Cardiovascular", price: "550 RON" },
     ],
     paddingTopTable: 0.35 + "em",
-    paddingBottomTable: 3.8 + "em",
+    paddingBottomTable: 0.5 + "em",
     anchorId: "timisoaraMap",
     locationUrl: "https://g.page/CardiologieTimisoara?share",
     images: [

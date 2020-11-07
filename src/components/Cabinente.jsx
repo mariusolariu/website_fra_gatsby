@@ -84,7 +84,7 @@ export default function Cabinete() {
     title: "Cabinet Bocșa",
     address: "Bocșa, Str. Funicularului, nr. 77A",
     workingHours: "Miercuri 15:00 - 17:00",
-    appoinmentsPhoneNumbers: "0757 488 541, 0255 525 403, 0742 421 032",
+    appoinmentsPhoneNumbers: "0740 016 561, 0255 525 403, 0742 421 032",
     services: [
       { title: "Consult cardiologic inițial + EKG + Pulsoximetrie", price: "200 RON" },
       { title: "Consult cardiologic inițial + EKG + Ecocardiografie Doppler/2D Color + Pulsoximetrie", price: "350 RON" },

@@ -27,6 +27,7 @@ const whiteBackground = {
 const centerTextStyle = {
   textAlign: "center"
 };
+
 export default function Cabinet({
   title,
   address,
@@ -60,10 +61,10 @@ export default function Cabinet({
         <tbody>
           <tr style={{ border: "1px solid #dddddd" }}>
             <th style={tdStyle}>
-              Serviciu
+              Servicii
             </th>
             <th style={tdStyle}>
-              Preț
+              Tarife
               </th>
           </tr>
           {

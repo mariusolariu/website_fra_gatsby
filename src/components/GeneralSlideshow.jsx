@@ -3,9 +3,11 @@ import Surgery2 from './imageComponents/descriereSlideshow/Surgery2';
 import Surgery3 from './imageComponents/descriereSlideshow/Surgery3';
 import Presentation4 from './imageComponents/descriereSlideshow/Presentation4';
 import Presentation5 from './imageComponents/descriereSlideshow/Presentation5';
+import Diploma from './imageComponents/descriereSlideshow/Diploma';
+import Laureat from './imageComponents/descriereSlideshow/Laureat';
 
 export default class GeneralSlideshow extends React.Component {
-  images = [<Surgery2 />, <Surgery3 />, <Presentation4 />, <Presentation5 />];
+  images = [<Diploma />, <Presentation4 />, <Presentation5 />, <Surgery2 />, <Surgery3 />];
   state = {
     photoIndex: 0,
   }
@@ -21,7 +23,7 @@ export default class GeneralSlideshow extends React.Component {
   }
 
   componentDidMount = () => {
-    setInterval(this.changePhoto, 3000);
+    setInterval(this.changePhoto, 4000);
   }
 
   render() {
@@ -29,7 +31,7 @@ export default class GeneralSlideshow extends React.Component {
 
     return (
       <div style={{
-        maxHeightc: 500 + "px",
+        maxHeight: 500 + "px",
         maxWidth: 800 + "px",
         marginTop: 2 + "em",
         // border: "1px solid green"

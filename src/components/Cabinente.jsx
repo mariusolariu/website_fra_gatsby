@@ -76,6 +76,20 @@ export default function Cabinete() {
         alt: "Poza cabinet Timisoara",
         thumbnailWidth: 115,
         thumbnailHeight: 125
+      },
+      {
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetTimisoara/laureat.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetTimisoara/laureat.jpeg?raw=true',
+        alt: "Poza cabinet Timisoara",
+        thumbnailWidth: 115,
+        thumbnailHeight: 125
+      },
+      {
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetTimisoara/diploma.jpg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetTimisoara/diploma.jpg?raw=true',
+        alt: "Poza cabinet Timisoara",
+        thumbnailWidth: 115,
+        thumbnailHeight: 125
       }
     ]
   }

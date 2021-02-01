@@ -4,7 +4,6 @@ import Surgery3 from './imageComponents/descriereSlideshow/Surgery3';
 import Presentation4 from './imageComponents/descriereSlideshow/Presentation4';
 import Presentation5 from './imageComponents/descriereSlideshow/Presentation5';
 import Diploma from './imageComponents/descriereSlideshow/Diploma';
-import Laureat from './imageComponents/descriereSlideshow/Laureat';
 
 export default class GeneralSlideshow extends React.Component {
   images = [<Diploma />, <Presentation4 />, <Presentation5 />, <Surgery2 />, <Surgery3 />];

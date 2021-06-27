@@ -12,7 +12,8 @@ const myRow = (what, info) => {
 
 const tdStyle = {
   paddingTop: 0.5 + "em",
-  paddingBottom: 0.5 + "em",
+  paddingRight: 0.5 + "em",
+  paddingLeft: 0.5 + "em",
   textAlign: "left",
 };
 
@@ -57,15 +58,20 @@ export default function Cabinet({
       <table style={{
         marginTop: 2 + "em",
         border: "1px solid #dddddd",
+        "table-layout": "auto",
+        "width": "100%",
       }}>
         <tbody>
           <tr style={{ border: "1px solid #dddddd" }}>
-            <th style={tdStyle}>
+            <th>
               Servicii
             </th>
             <th style={tdStyle}>
-              Tarife
+              Dr. Olariu Ioan
               </th>
+            <th style={tdStyle}>
+              Dr. Lucuța Lavinia
+            </th>
           </tr>
           {
             services.map((service, index) => {
@@ -76,7 +82,8 @@ export default function Cabinet({
                     (index % 2 === 0 ? greyBackground : whiteBackground)
                   }>
                   <td style={tdStyle}>{service.title}</td>
-                  <td style={tdStyle}>  {service.price}</td>
+                  <td style={tdStyle}>{service.ioan}</td>
+                  <td style={tdStyle}>{service.lucuta}</td>
                 </tr>);
             })
           }

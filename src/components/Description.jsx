@@ -21,7 +21,10 @@ export default function Description() {
 
     padding: 0,
     margin: 0,
-    "list-style": "none"
+    "list-style": "none",
+    "margin-top": "2%",
+    // "border": "1px solid red"
+
   };
 
   const flexitem = {
@@ -119,7 +122,7 @@ export default function Description() {
 
       <div style={{ clear: "both" }}> </div>
 
-      <div>
+      <div style={flexcontainer}>
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/CabinetCardiologic/?eid=ARBXsJA-PukiHIlKczHx4WirPc30MQ0lPCoO9cfPhPEVz_GqmOxPip8yAFACwY-ZR3fGhpRtel-bnhXM">Vezi pagina de Facebook a cabinetului</a> <br />
         <a target="_blank" rel="noreferrer" href="https://www.soimiisanatatii.ro/profile-94603-cmp/">Vezi profilul cabinetului pe soimiisanatatii.ro</a> <br />
 

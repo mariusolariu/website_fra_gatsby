@@ -22,8 +22,8 @@ export default function Home() {
       id="content"
       style={{
         paddingTop: 1 + "%",
-        paddingLeft: 10 + "%",
-        paddingRight: 10 + "%",
+        paddingLeft: 5 + "%",
+        paddingRight: 5 + "%",
         paddingBottom: 2 + "em",
         backgroundColor: "#F9F9F9",
       }}>

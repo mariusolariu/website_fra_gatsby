@@ -1,19 +1,125 @@
 import React from "react";
 import DrOlariu from "./imageComponents/DrOlariu";
+import DrCozma from "./imageComponents/DrCozma";
+import DrLucuta from "./imageComponents/DrLucuta";
 
 export default function Description() {
+  const flexcontainer = {
+    /* We first create a flex layout context */
+    "display": "flex",
+
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row,
+     * flex-wrap: wrap,
+     */
+    "flex-flow": "row wrap",
+
+    /* Then we define how is distributed the remaining space */
+    "justify-content": "space-around",
+
+    padding: 0,
+    margin: 0,
+    "list-style": "none"
+  };
+
+  const flexitem = {
+    "margin-top": "3%",
+    "text-align": "justify",
+    "min-width": "320px",
+    // "border": "1px solid red"
+  };
+
+
   return (
-    <div>
-      <div id="descriere" style={{
-        marginBottom: 1 + "em",
-        width: 330 + "px",
-        float: "left",
-      }}>
-        <strong> Dr. Olariu Ioan</strong><br />
-        Medic Primar Cardiolog<br />
-        Institutul de Boli Cardiovasculare Timișoara<br />
-        Competență în Cardiologie Invazivă <br />
-        Competență în Ecocardiografie<br />
+    <>
+      <div style={flexcontainer}>
+        {/* OLARIU */}
+        <div style={flexitem}>
+          <div style={{ "text-align": "center" }}>
+            <strong>Dr. Olariu Ioan</strong>
+          </div>
+
+
+          <div style={{
+            height: 90 + "px",
+            maxHeight: 90 + "px",
+            width: 85 + "px",
+            maxWidth: 85 + "px",
+            float: "left",
+            marginRight: "0.5em"
+          }}>
+            <DrOlariu />
+          </div>
+
+          <div style={{ float: "right" }}>
+            Medic Primar Cardiolog<br />
+            Institutul de Boli Cardiovasculare Timișoara<br />
+            Competență în Cardiologie Invazivă <br />
+            Competență în Ecocardiografie<br />
+          </div>
+
+        </div>
+
+        {/* COZMA */}
+        <div style={flexitem}>
+          <div style={{ "text-align": "center" }}>
+            <strong>Dr. Cozma Dragoș</strong>
+          </div>
+
+
+          <div style={{
+            height: 95 + "px",
+            maxHeight: 95 + "px",
+            width: 90 + "px",
+            maxWidth: 90 + "px",
+            float: "left",
+            marginRight: "0.5em"
+          }}>
+            <DrCozma />
+          </div>
+
+          <div style={{ float: "right" }}>
+            Medic Primar Cardiolog<br />
+            Institutul de Boli Cardiovasculare Timișoara<br />
+            Competență în Electrofiziologie <br />
+            Competență în Implant de Simulatoare <br />
+            Competență în Ecocardiografie<br />
+          </div>
+
+        </div>
+
+        {/* LUCUTA */}
+        <div style={flexitem}>
+          <div style={{ "text-align": "center" }}>
+            <strong>Dr. Lucuța Lavinia</strong>
+          </div>
+
+
+          <div style={{
+            height: 84 + "px",
+            maxHeight: 84 + "px",
+            width: 85 + "px",
+            maxWidth: 85 + "px",
+            float: "left",
+            marginRight: "0.5em"
+          }}>
+            <DrLucuta />
+          </div>
+
+          <div style={{ float: "right" }}>
+            Medic Cardiolog<br />
+            Institutul de Boli Cardiovasculare Timișoara<br />
+          </div>
+
+        </div>
+
+      </div>
+
+      <div style={{ clear: "both" }}> </div>
+
+      <div>
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/CabinetCardiologic/?eid=ARBXsJA-PukiHIlKczHx4WirPc30MQ0lPCoO9cfPhPEVz_GqmOxPip8yAFACwY-ZR3fGhpRtel-bnhXM">Vezi pagina de Facebook a cabinetului</a> <br />
         <a target="_blank" rel="noreferrer" href="https://www.soimiisanatatii.ro/profile-94603-cmp/">Vezi profilul cabinetului pe soimiisanatatii.ro</a> <br />
 
@@ -21,19 +127,8 @@ export default function Description() {
           <img src="https://www.soimiisanatatii.ro/images/medals/laureat300_black_2_ro.png" style={{ width: 300 + "px", height: 130 + "px", marginTop: "4%" }} alt="Cabinet Medical Cardiologie Dr. Olariu Ioan - Timisoara" title="Cabinet Medical Cardiologie Dr. Olariu Ioan - Timisoara">
           </img>
         </a>
-      </div >
-
-      <div style={{
-        height: 300 + "px",
-        width: 300 + "px",
-        maxWidth: 300 + "px",
-        float: "right"
-      }}>
-        <DrOlariu />
       </div>
 
-      <div style={{ clear: "both" }}> </div>
-
-    </div >
+    </ >
   );
 }

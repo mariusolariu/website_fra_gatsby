@@ -64,11 +64,11 @@ export default function Cabinet({
         <tbody>
           <tr style={{ border: "1px solid #dddddd" }}>
             <th>
-              Servicii
+              Servicii și tarife
             </th>
             <th style={tdStyle}>
               Dr. Olariu Ioan
-              </th>
+            </th>
             <th style={tdStyle}>
               Dr. Lucuța Lavinia
             </th>

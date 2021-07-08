@@ -68,7 +68,7 @@ export default function Description() {
         {/* COZMA */}
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>
-            <strong>Dr. Cozma Dragoș</strong>
+            <strong>Conf. Dr. Cozma Dragoș</strong>
           </div>
 
 
@@ -87,7 +87,6 @@ export default function Description() {
             Medic Primar Cardiolog<br />
             Institutul de Boli Cardiovasculare Timișoara<br />
             Competență în Electrofiziologie <br />
-            Competență în Implant de Simulatoare <br />
             Competență în Ecocardiografie<br />
           </div>
 
@@ -112,8 +111,8 @@ export default function Description() {
           </div>
 
           <div style={{ float: "right" }}>
-            Medic Cardiolog<br />
-            Institutul de Boli Cardiovasculare Timișoara<br />
+            Medic Specialist Cardiolog<br />
+            Competență în Ecocardiografie<br />
           </div>
 
         </div>

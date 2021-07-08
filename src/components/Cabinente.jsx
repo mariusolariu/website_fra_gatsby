@@ -98,7 +98,7 @@ export default function Cabinete() {
     title: "Cabinet Bocșa",
     address: "Bocșa, Str. Funicularului, nr. 77A",
     workingHours: "Miercuri 15:00 - 17:00",
-    appoinmentsPhoneNumbers: "0740 016 561, 0255 525 403, 0742 421 032",
+    appoinmentsPhoneNumbers: "0740 016 561, 0742 421 032",
     services: [
       { title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "150 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter EKG/24H", ioan: "350 RON", lucuta: "300 RON" },
@@ -119,13 +119,6 @@ export default function Cabinete() {
         thumbnailHeight: 125
       },
       {
-        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa1.jpg?raw=true',
-        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa1.jpg?raw=true',
-        alt: "Poza cabinet Bocsa",
-        thumbnailWidth: 115,
-        thumbnailHeight: 125
-      },
-      {
         src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa2.jpg?raw=true',
         thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa2.jpg?raw=true',
         alt: "Poza cabinet Bocsa",
@@ -135,13 +128,6 @@ export default function Cabinete() {
       {
         src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa3.jpg?raw=true',
         thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa3.jpg?raw=true',
-        alt: "Poza cabinet Bocsa",
-        thumbnailWidth: 115,
-        thumbnailHeight: 125
-      },
-      {
-        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa4.jpg?raw=true',
-        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa4.jpg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125

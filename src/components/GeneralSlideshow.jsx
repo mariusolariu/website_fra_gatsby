@@ -31,7 +31,7 @@ export default class GeneralSlideshow extends React.Component {
     return (
       <div style={{
         maxHeight: 500 + "px",
-        maxWidth: 800 + "px",
+        maxWidth: 900 + "px",
         marginTop: 2 + "em",
         // border: "1px solid green"
       }}>

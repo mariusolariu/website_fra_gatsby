@@ -41,6 +41,19 @@ export default function Cabinet({
   locationUrl
 }) {
 
+  const tableStyle = {
+    marginTop: 2 + "em",
+    border: "1px solid #dddddd",
+    "table-layout": "auto",
+    "width": "100%",
+  }
+
+  const tableRowStyle = { border: "1px solid #dddddd" };
+
+  const spaceUnder = {
+    "padding-bottom": "0.75em"
+  };
+
   return (
     <div
       style={{
@@ -55,14 +68,9 @@ export default function Cabinet({
       {myRow('Programări', appoinmentsPhoneNumbers)}
 
       <p style={{ paddingTop: paddingTopTable }}>  </p>
-      <table style={{
-        marginTop: 2 + "em",
-        border: "1px solid #dddddd",
-        "table-layout": "auto",
-        "width": "100%",
-      }}>
+      <table style={tableStyle}>
         <tbody>
-          <tr style={{ border: "1px solid #dddddd" }}>
+          <tr style={tableRowStyle}>
             <th>
               Servicii și tarife
             </th>
@@ -87,6 +95,18 @@ export default function Cabinet({
                 </tr>);
             })
           }
+        </tbody>
+      </table>
+
+      <table style={tableStyle}>
+        <tbody>
+          <tr style={tableRowStyle}>
+            <th colspan={2} style={spaceUnder}> Conf. Dr. Dragoș Cozma - Tarife și Servicii </th>
+          </tr>
+          <tr style={greyBackground}>
+            <td>Consult cardiologic</td>
+            <td>500 RON</td>
+          </tr>
         </tbody>
       </table>
 

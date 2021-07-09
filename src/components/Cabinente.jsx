@@ -3,6 +3,7 @@ import Cabinet from './Cabinet';
 
 export default function Cabinete() {
   const cabinetTimisoaraData = {
+    cabinetTimisoara: true,
     title: "Cabinet Timișoara",
     address: "Timișoara, Bulevardul Cetății, Nr. 77",
     workingHours: "Luni 15:00 – 17:00",
@@ -95,6 +96,8 @@ export default function Cabinete() {
   }
 
   const cabinetBocsaData = {
+    // needed for adding the prices only for Dr. Cozma
+    cabinetTimisoara: false,
     title: "Cabinet Bocșa",
     address: "Bocșa, Str. Funicularului, nr. 77A",
     workingHours: "Miercuri 15:00 - 17:00",

@@ -136,13 +136,6 @@ export default function Cabinete() {
         thumbnailHeight: 125
       },
       {
-        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa5.jpg?raw=true',
-        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetTimisoara/tim5.jpg?raw=true',
-        alt: "Poza cabinet Bocsa",
-        thumbnailWidth: 115,
-        thumbnailHeight: 125
-      },
-      {
         src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa6.jpg?raw=true',
         thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa6.jpg?raw=true',
         alt: "Poza cabinet Bocsa",

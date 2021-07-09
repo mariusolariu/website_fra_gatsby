@@ -115,6 +115,27 @@ export default function Cabinete() {
     locationUrl: "https://g.page/CardiologieBocsa?share",
     images: [
       {
+        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet_bocsa_empty.jpeg?raw=true",
+        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet_bocsa_empty.jpeg?raw=true",
+        alt: "Poza cabinet Bocsa",
+        thumbnailWidth: 115,
+        thumbnailHeight: 125
+      },
+      {
+        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_olariu_bocsa.jpeg?raw=true",
+        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_olariu_bocsa.jpeg?raw=true",
+        alt: "Poza cabinet Bocsa",
+        thumbnailWidth: 115,
+        thumbnailHeight: 125
+      },
+      {
+        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_lucuta_bocsa.jpeg?raw=true",
+        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_lucuta_bocsa.jpeg?raw=true",
+        alt: "Poza cabinet Bocsa",
+        thumbnailWidth: 115,
+        thumbnailHeight: 125
+      },
+      {
         src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa0.jpg?raw=true",
         thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa0.jpg?raw=true",
         alt: "Poza cabinet Bocsa",

@@ -10,6 +10,38 @@ const myRow = (what, info) => {
   );
 }
 
+const tableStyle = {
+  marginTop: 2 + "em",
+  border: "1px solid #dddddd",
+  "table-layout": "auto",
+  "width": "100%",
+}
+
+const tableRowStyle = { border: "1px solid #dddddd" };
+
+const spaceUnder = {
+  "padding-bottom": "0.75em"
+};
+
+const tableWithPricesCozma = (isCabinetTimisoaraData) => {
+
+  if (isCabinetTimisoaraData) {
+    return <table style={tableStyle}>
+      <tbody>
+        <tr style={tableRowStyle}>
+          <th colspan={2} style={spaceUnder}> Conf. Dr. Dragoș Cozma - Servicii și tarife </th>
+        </tr>
+        <tr style={greyBackground}>
+          <td>Consult cardiologic</td>
+          <td>500 RON</td>
+        </tr>
+      </tbody>
+    </table>
+  }
+
+  return <></>;
+}
+
 const tdStyle = {
   paddingTop: 0.5 + "em",
   paddingRight: 0.5 + "em",
@@ -30,6 +62,7 @@ const centerTextStyle = {
 };
 
 export default function Cabinet({
+  cabinetTimisoara,
   title,
   address,
   workingHours,
@@ -40,19 +73,6 @@ export default function Cabinet({
   images,
   locationUrl
 }) {
-
-  const tableStyle = {
-    marginTop: 2 + "em",
-    border: "1px solid #dddddd",
-    "table-layout": "auto",
-    "width": "100%",
-  }
-
-  const tableRowStyle = { border: "1px solid #dddddd" };
-
-  const spaceUnder = {
-    "padding-bottom": "0.75em"
-  };
 
   return (
     <div
@@ -98,17 +118,7 @@ export default function Cabinet({
         </tbody>
       </table>
 
-      <table style={tableStyle}>
-        <tbody>
-          <tr style={tableRowStyle}>
-            <th colspan={2} style={spaceUnder}> Conf. Dr. Dragoș Cozma - Tarife și Servicii </th>
-          </tr>
-          <tr style={greyBackground}>
-            <td>Consult cardiologic</td>
-            <td>500 RON</td>
-          </tr>
-        </tbody>
-      </table>
+      {tableWithPricesCozma(cabinetTimisoara)}
 
       <p style={{ paddingBottom: paddingBottomTable }}>  </p>
 

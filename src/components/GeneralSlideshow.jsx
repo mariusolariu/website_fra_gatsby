@@ -33,6 +33,7 @@ export default class GeneralSlideshow extends React.Component {
         maxHeight: 500 + "px",
         maxWidth: 900 + "px",
         marginTop: 2 + "em",
+        marginBottom: 3 + "em",
         // border: "1px solid green"
       }}>
         {

@@ -86,9 +86,7 @@ export default function Description() {
           <div style={{ float: "right" }}>
             Medic Primar Cardiolog<br />
             Institutul de Boli Cardiovasculare Timișoara<br />
-            Competență în Electrofiziologie<br />
-            Competență în Pacing-Stimulatoare<br />
-            Competență în Defibrilatoare Cardiace<br />
+            Competență în Electrofiziologie, Pacing-Stimulatoare si Defibrilatoare Cardiace<br />
             Competență în Ecocardiografie<br />
           </div>
 

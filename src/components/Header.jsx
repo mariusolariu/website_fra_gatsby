@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 export default function Header() {
   const headerImageData = useStaticQuery(graphql`
     query MyQuery {
-      file(relativePath: {eq: "pageHeader.jpeg"}) {
+      file(relativePath: {eq: "olariu_med_logo_header.png"}) {
         childImageSharp {
           fluid {
             aspectRatio
@@ -22,7 +22,6 @@ export default function Header() {
   return (
     <>
       <Img fluid={headerImageData.file.childImageSharp.fluid} alt="The website header"></Img>
-      <p style={{ marginTop: "2.5em" }}></p>
     </>
   );
 }

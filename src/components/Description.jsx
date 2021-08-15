@@ -38,6 +38,10 @@ export default function Description() {
   return (
     <>
       <div style={flexcontainer}>
+        <p style={{ "text-indent": "1em" }}>
+          <strong>Olariu Med</strong> este o clinică ce se adresează pacienților cu boli cardiovasculare și oferă acestora soluții medicale complete.
+          Colectivul este format din medici cu vastă experiență în tratamentul intervențional al bolilor cardiovasculare (angiocoronarografie cu stentare la nivelul arterelor coronare si periferice, implant de stimulatoare și defibrilatoare cardiace), dobandita la Institutul de Boli Cardiovasculare Timișoara.
+        </p>
         {/* OLARIU */}
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>

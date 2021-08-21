@@ -6,7 +6,33 @@ export default function Cabinete() {
     cabinetTimisoara: true,
     title: "Cabinet Timișoara",
     address: "Timișoara, Bulevardul Cetății, nr. 77",
-    workingHours: "Luni 15:00 – 17:00",
+    schedule: [
+      {
+        doctor: "Dr. Olariu Ioan",
+        weekDay: "Luni",
+        workHours: "15:00 - 17:00"
+      },
+      {
+        doctor: "Dr. Lucuța Lavinia",
+        weekDay: "Luni",
+        workHours: "10:00 - 15:00"
+      },
+      {
+        doctor: "Conf. Dr. Dragoș Cozma",
+        weekDay: "Miercuri",
+        workHours: "16:00 - 19:00"
+      },
+      {
+        doctor: "Dr. Olariu Ioan",
+        weekDay: "Vineri",
+        workHours: "15:00 - 17:00"
+      },
+      {
+        doctor: "Dr. Lucuța Lavinia",
+        weekDay: "Vineri",
+        workHours: "10:00 - 15:00"
+      }
+    ],
     appoinmentsPhoneNumbers: "0740 384 798, 0742 421 032",
     services: [
       { title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "200 RON" },
@@ -100,7 +126,18 @@ export default function Cabinete() {
     cabinetTimisoara: false,
     title: "Cabinet Bocșa",
     address: "Bocșa, Str. Funicularului, nr. 77A",
-    workingHours: "Miercuri 15:00 - 17:00",
+    schedule: [
+      {
+        doctor: "Dr. Olariu Ioan",
+        weekDay: "Miercuri",
+        workHours: "15:00 - 17:00"
+      },
+      {
+        doctor: "Dr. Lucuța Lavinia",
+        weekDay: "Joi",
+        workHours: "13:00 - 17:00"
+      }
+    ],
     appoinmentsPhoneNumbers: "0740 016 561, 0742 421 032",
     services: [
       { title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "150 RON" },

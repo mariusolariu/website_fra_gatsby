@@ -1,5 +1,6 @@
 import React from 'react';
 import Gallery from 'react-grid-gallery';
+import FormattedTableBody from './utils/FormattedTableBody';
 
 const myRow = (what, info) => {
   return (
@@ -12,6 +13,7 @@ const myRow = (what, info) => {
 
 const tableStyle = {
   marginTop: 2 + "em",
+  marginBottom: 1 + "em",
   border: "1px solid #dddddd",
   "table-layout": "auto",
   "width": "100%",
@@ -65,7 +67,7 @@ export default function Cabinet({
   cabinetTimisoara,
   title,
   address,
-  workingHours,
+  schedule,
   appoinmentsPhoneNumbers,
   services,
   paddingTopTable,
@@ -84,7 +86,27 @@ export default function Cabinet({
       {myRow('Adresa', address)}
       <a href={`${locationUrl}`} target="_blank" rel="noreferrer"> Vezi pe hartă adresa</a>
       <br />
-      {myRow('Program', workingHours)}
+      <table style={tableStyle}>
+        {
+          <tbody>
+            <thead style={{ colspan: "3" }}><th>Program</th></thead>
+            {schedule.map((workDay, index) => (
+              <tr
+                key={`${index}`}
+                style={
+                  (index % 2 === 0 ? greyBackground : whiteBackground)
+                }
+              >
+                <td style={tdStyle}>{workDay.weekDay}</td>
+                <td style={tdStyle}>{workDay.doctor}</td>
+                <td style={tdStyle}>{workDay.workHours}</td>
+              </tr>
+
+            ))
+            }
+          </tbody>
+        }
+      </table>
       {myRow('Programări', appoinmentsPhoneNumbers)}
 
       <p style={{ paddingTop: paddingTopTable }}>  </p>

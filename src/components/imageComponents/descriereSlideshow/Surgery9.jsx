@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const Surgery9 = (params) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "descriereSlideshow/9_surgery_room.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "descriereSlideshow/9_dr_cozma.jpeg" }) {
         childImageSharp {
           fluid (maxWidth: 1000, maxHeight: 650, quality: 100) {
             aspectRatio

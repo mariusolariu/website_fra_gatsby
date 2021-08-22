@@ -5,8 +5,10 @@ import Presentation4 from './imageComponents/descriereSlideshow/Presentation4';
 import Presentation5 from './imageComponents/descriereSlideshow/Presentation5';
 import Diploma from './imageComponents/descriereSlideshow/Diploma';
 
+const SLIDESHOW_INTERVAL_MS = 2500;
 export default class GeneralSlideshow extends React.Component {
-  images = [<Diploma />, <Presentation4 />, <Presentation5 />, <Surgery2 />, <Surgery3 />];
+
+  images = [<Diploma />, <Surgery2 />, <Surgery3 />];
   state = {
     photoIndex: 0,
   }
@@ -22,7 +24,7 @@ export default class GeneralSlideshow extends React.Component {
   }
 
   componentDidMount = () => {
-    setInterval(this.changePhoto, 4000);
+    setInterval(this.changePhoto, SLIDESHOW_INTERVAL_MS);
   }
 
   render() {

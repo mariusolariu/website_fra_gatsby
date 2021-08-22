@@ -1,14 +1,19 @@
 import React from 'react';
+import Diploma from './imageComponents/descriereSlideshow/Diploma';
+import Surgery1 from './imageComponents/descriereSlideshow/Surgery1';
 import Surgery2 from './imageComponents/descriereSlideshow/Surgery2';
 import Surgery3 from './imageComponents/descriereSlideshow/Surgery3';
-import Presentation4 from './imageComponents/descriereSlideshow/Presentation4';
-import Presentation5 from './imageComponents/descriereSlideshow/Presentation5';
-import Diploma from './imageComponents/descriereSlideshow/Diploma';
+import Surgery4 from './imageComponents/descriereSlideshow/Surgery4';
+import Surgery5 from './imageComponents/descriereSlideshow/Surgery5';
+import Surgery6 from './imageComponents/descriereSlideshow/Surgery6';
+import Surgery7 from './imageComponents/descriereSlideshow/Surgery7';
+import Surgery8 from './imageComponents/descriereSlideshow/Surgery8';
+import Surgery9 from './imageComponents/descriereSlideshow/Surgery9';
 
 const SLIDESHOW_INTERVAL_MS = 2500;
 export default class GeneralSlideshow extends React.Component {
 
-  images = [<Diploma />, <Surgery2 />, <Surgery3 />];
+  images = [<Surgery1 />, <Surgery2 />, <Surgery3 />, <Surgery4 />, <Surgery5 />, <Diploma />, <Surgery6 />, <Surgery7 />, <Surgery8 />, <Surgery9 />,];
   state = {
     photoIndex: 0,
   }

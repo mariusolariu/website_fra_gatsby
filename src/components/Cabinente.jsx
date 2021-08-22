@@ -8,14 +8,14 @@ export default function Cabinete() {
     address: "Timișoara, Bulevardul Cetății, nr. 77",
     schedule: [
       {
-        doctor: "Dr. Olariu Ioan",
-        weekDay: "Luni",
-        workHours: "15:00 - 17:00"
-      },
-      {
         doctor: "Dr. Lucuța Lavinia",
         weekDay: "Luni",
         workHours: "10:00 - 15:00"
+      },
+      {
+        doctor: "Dr. Olariu Ioan",
+        weekDay: "Luni",
+        workHours: "15:00 - 17:00"
       },
       {
         doctor: "Conf. Dr. Dragoș Cozma",
@@ -23,15 +23,16 @@ export default function Cabinete() {
         workHours: "16:00 - 19:00"
       },
       {
-        doctor: "Dr. Olariu Ioan",
-        weekDay: "Vineri",
-        workHours: "15:00 - 17:00"
-      },
-      {
         doctor: "Dr. Lucuța Lavinia",
         weekDay: "Vineri",
         workHours: "10:00 - 15:00"
+      },
+      {
+        doctor: "Dr. Olariu Ioan",
+        weekDay: "Vineri",
+        workHours: "15:00 - 17:00"
       }
+
     ],
     appoinmentsPhoneNumbers: "0740 384 798, 0742 421 032",
     services: [

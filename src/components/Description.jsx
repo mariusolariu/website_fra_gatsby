@@ -2,13 +2,14 @@ import React from "react";
 import DrOlariu from "./imageComponents/doctors/DrOlariu";
 import DrCozma from "./imageComponents/doctors/DrCozma";
 import DrLucuta from "./imageComponents/doctors/DrLucuta";
+import DrChristodorescu from "./imageComponents/doctors/DrChristodorescu";
 
 export default function Description() {
   const flexcontainer = {
     /* We first create a flex layout context */
     "display": "flex",
 
-    /* Then we define the flow direction 
+    /* Then we define the flow direction
        and if we allow the items to wrap 
      * Remember this is the same as:
      * flex-direction: row,
@@ -117,6 +118,32 @@ export default function Description() {
           <div style={{ float: "right" }}>
             Medic Specialist Cardiolog<br />
             Competență în Ecocardiografie<br />
+          </div>
+
+        </div>
+
+        {/* Christodorescu */}
+        <div style={flexitem}>
+          <div style={{ "text-align": "center" }}>
+            <strong>Dr. Ruxandra Christodorescu</strong>
+          </div>
+
+
+          <div style={{
+            height: 84 + "px",
+            maxHeight: 84 + "px",
+            width: 85 + "px",
+            maxWidth: 85 + "px",
+            float: "left",
+            marginRight: "0.5em"
+          }}>
+            <DrChristodorescu />
+          </div>
+
+          <div style={{ float: "right" }}>
+            Medic Primar Cardiolog<br />
+            Spitalul Municipal de Urgență Timișoara<br />
+            Competență în Ecocardiografie și Ecografie Vasculară<br />
           </div>
 
         </div>

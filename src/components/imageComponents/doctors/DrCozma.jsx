@@ -2,10 +2,10 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const DrLucuta = () => {
+const DrCozma = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "descriereSlideshow/dr_lucuta.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "doctors/dr_cozma.jpeg" }) {
         childImageSharp  {
           fluid (maxWidth: 100, maxHeight: 100, quality: 100){
             aspectRatio
@@ -22,4 +22,4 @@ const DrLucuta = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-export default DrLucuta
+export default DrCozma

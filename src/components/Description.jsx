@@ -1,7 +1,7 @@
 import React from "react";
-import DrOlariu from "./imageComponents/DrOlariu";
-import DrCozma from "./imageComponents/DrCozma";
-import DrLucuta from "./imageComponents/DrLucuta";
+import DrOlariu from "./imageComponents/doctors/DrOlariu";
+import DrCozma from "./imageComponents/doctors/DrCozma";
+import DrLucuta from "./imageComponents/doctors/DrLucuta";
 
 export default function Description() {
   const flexcontainer = {

@@ -41,7 +41,7 @@ export default function Cabinete() {
     ],
     appoinmentsPhoneNumbers: "0740 384 798, 0742 421 032",
     services: [
-      { title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "200 RON" },
+      { doctorName1: "Dr. Olariu Ioan / Dr. Christodorescu Ruxandra", doctorName2: "Dr. Lucuța Lavinia", title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "200 RON" },
       { title: "Consult cardiologic + Monitorizare Holter Ekg/24H", ioan: "400 RON", lucuta: "350 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "400 RON", lucuta: "300 RON" },
       { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie", ioan: "450 RON", lucuta: "350 RON" },
@@ -146,7 +146,7 @@ export default function Cabinete() {
     ],
     appoinmentsPhoneNumbers: "0740 016 561, 0742 421 032",
     services: [
-      { title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "150 RON" },
+      { doctorName1: "Dr. Olariu Ioan", doctorName2: "Dr. Lucuța Lavinia", title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "150 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter EKG/24H", ioan: "350 RON", lucuta: "300 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "350 RON", lucuta: "300 RON" },
       { title: "Consult cardiologic + EKG + Ecocardiografie Doppler/2D Color + Pulsoximetrie", ioan: "400 RON", lucuta: "300 RON" },

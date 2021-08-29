@@ -31,7 +31,7 @@ const tableWithPricesCozma = (isCabinetTimisoaraData) => {
     return <table style={tableStyle}>
       <tbody>
         <tr style={tableRowStyle}>
-          <th colspan={2} style={spaceUnder}> Conf. Dr. Dragoș Cozma - Servicii și tarife </th>
+          <th colspan={2} style={spaceUnder}> Conf. Dr. Cozma Dragoș - Servicii și tarife </th>
         </tr>
         <tr style={greyBackground}>
           <td>Consult cardiologic</td>
@@ -117,10 +117,13 @@ export default function Cabinet({
               Servicii și tarife
             </th>
             <th style={tdStyle}>
-              Dr. Olariu Ioan
+              <div>
+                {services[0].doctorName1}
+              </div>
+
             </th>
             <th style={tdStyle}>
-              Dr. Lucuța Lavinia
+              {services[0].doctorName2}
             </th>
           </tr>
           {
@@ -155,6 +158,6 @@ export default function Cabinet({
         margin={5}
         showLightboxThumbnails
       />
-    </div>
+    </div >
   )
 }

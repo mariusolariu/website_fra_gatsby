@@ -43,6 +43,7 @@ export default function Description() {
           <strong>Olariu Med</strong> este o clinică ce se adresează pacienților cu boli cardiovasculare și oferă acestora soluții medicale complete.
           Colectivul este format din medici cu vastă experiență în tratamentul intervențional al bolilor cardiovasculare (angiocoronarografie cu stentare la nivelul arterelor coronare si periferice, implant de stimulatoare și defibrilatoare cardiace) dobandită la Institutul de Boli Cardiovasculare Timișoara.
         </p>
+        {/* TODO: Refactor each doctor div section into a common component */}
         {/* OLARIU */}
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>
@@ -97,31 +98,6 @@ export default function Description() {
 
         </div>
 
-        {/* LUCUTA */}
-        <div style={flexitem}>
-          <div style={{ "text-align": "center" }}>
-            <strong>Dr. Lucuța Lavinia</strong>
-          </div>
-
-
-          <div style={{
-            height: 84 + "px",
-            maxHeight: 84 + "px",
-            width: 85 + "px",
-            maxWidth: 85 + "px",
-            float: "left",
-            marginRight: "0.5em"
-          }}>
-            <DrLucuta />
-          </div>
-
-          <div style={{ float: "right" }}>
-            Medic Specialist Cardiolog<br />
-            Competență în Ecocardiografie<br />
-          </div>
-
-        </div>
-
         {/* Christodorescu */}
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>
@@ -144,6 +120,32 @@ export default function Description() {
             Medic Primar Cardiolog<br />
             Spitalul Municipal de Urgență Timișoara<br />
             Competență în Ecocardiografie și Ecografie Vasculară<br />
+          </div>
+
+        </div>
+
+
+        {/* LUCUTA */}
+        <div style={flexitem}>
+          <div style={{ "text-align": "center" }}>
+            <strong>Dr. Lucuța Lavinia</strong>
+          </div>
+
+
+          <div style={{
+            height: 84 + "px",
+            maxHeight: 84 + "px",
+            width: 85 + "px",
+            maxWidth: 85 + "px",
+            float: "left",
+            marginRight: "0.5em"
+          }}>
+            <DrLucuta />
+          </div>
+
+          <div style={{ float: "right" }}>
+            Medic Specialist Cardiolog<br />
+            Competență în Ecocardiografie<br />
           </div>
 
         </div>

@@ -19,11 +19,11 @@ export default function Home() {
       </Helmet>
     </div>
     <div
-      id="content"
+      id="interior_div"
       style={{
         paddingTop: 1 + "%",
-        paddingLeft: 5 + "%",
-        paddingRight: 5 + "%",
+        paddingLeft: "0.5em",
+        paddingRight: "0.5em",
         paddingBottom: 2 + "em",
         backgroundColor: "#F9F9F9",
       }}>

@@ -8,8 +8,6 @@ import Surgery5 from './imageComponents/descriereSlideshow/Surgery5';
 import Surgery6 from './imageComponents/descriereSlideshow/Surgery6';
 import Surgery7 from './imageComponents/descriereSlideshow/Surgery7';
 
-// FIXME: get a replacement, this is a bad photo and is hard to display because is not panoramic and is poor quality
-import Surgery8 from './imageComponents/descriereSlideshow/Surgery8';
 import Surgery9 from './imageComponents/descriereSlideshow/Surgery9';
 import Surgery10 from './imageComponents/descriereSlideshow/Surgery10';
 import Surgery11 from './imageComponents/descriereSlideshow/Surgery11';
@@ -45,7 +43,7 @@ export default class GeneralSlideshow extends React.Component {
     return (
       <div style={{
         maxHeight: 500 + "px",
-        maxWidth: 900 + "px",
+        maxWidth: 1000 + "px",
         marginTop: 2 + "em",
         marginBottom: 3 + "em",
         // border: "1px solid green"

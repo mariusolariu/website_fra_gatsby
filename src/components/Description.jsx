@@ -125,7 +125,7 @@ export default function Description() {
         {/* Christodorescu */}
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>
-            <strong>Dr. Ruxandra Christodorescu</strong>
+            <strong>Dr. Christodorescu Ruxandra</strong>
           </div>
 
 

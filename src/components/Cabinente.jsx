@@ -18,7 +18,12 @@ export default function Cabinete() {
         workHours: "15:00 - 17:00"
       },
       {
-        doctor: "Conf. Dr. Dragoș Cozma",
+        doctor: "Dr. Christodorescu Ruxandra",
+        weekDay: "Luni",
+        workHours: "17:00 - 19:00"
+      },
+      {
+        doctor: "Conf. Dr. Cozma Dragoș",
         weekDay: "Miercuri",
         workHours: "16:00 - 19:00"
       },

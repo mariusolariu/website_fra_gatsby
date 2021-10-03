@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 export default function Header() {
   const headerImageData = useStaticQuery(graphql`
     query MyQuery {
-      file(relativePath: {eq: "olariu_med_logo_header.png"}) {
+      file(relativePath: {eq: "olariu_med_new_logo.png"}) {
         childImageSharp {
           fluid {
             aspectRatio

@@ -1,6 +1,5 @@
 import React from 'react';
 import Gallery from 'react-grid-gallery';
-import FormattedTableBody from './utils/FormattedTableBody';
 
 const myRow = (what, info) => {
   return (

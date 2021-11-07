@@ -45,7 +45,7 @@ export default function Cabinete() {
       { title: "Consult cardiologic + Monitorizare Holter Ekg/24H", ioan: "400 RON", lucuta: "350 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "400 RON", lucuta: "300 RON" },
       { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie", ioan: "450 RON", lucuta: "350 RON" },
-      { title: "Consult cardiologic + EKG + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "450 RON", lucuta: "400 RON" },
+      { title: "Consult cardiologic + EKG + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "450 RON", lucuta: "450 RON" },
       { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", ioan: "500 RON", lucuta: "400 RON" },
       { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "650 RON", lucuta: "550 RON" },
     ],

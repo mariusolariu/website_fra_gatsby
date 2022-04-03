@@ -40,7 +40,7 @@ export default function Description() {
     <>
       <div style={flexcontainer}>
         <p style={{ "text-indent": "1em" }}>
-          <strong>Olariu Med</strong> este o clinică care se adresează pacienților cu boli cardiovasculare și oferă servicii medicale eficiente la cele mai înalte standarde de calitate.
+          <strong>Olariu Med</strong> se adresează pacienților cu boli cardiovasculare și oferă servicii medicale eficiente la cele mai înalte standarde de calitate.
           Colectivul este format din medici cu vastă experiență în tratamentul intervențional al bolilor cardiovasculare (angiocoronarografie cu stentare la nivelul arterelor coronare si periferice, implant de stimulatoare și defibrilatoare cardiace) dobandită la Institutul de Boli Cardiovasculare Timișoara.
         </p>
         {/* TODO: Refactor each doctor div section into a common component */}

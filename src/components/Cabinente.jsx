@@ -131,7 +131,7 @@ export default function Cabinete() {
     // needed for adding the prices only for Dr. Cozma
     cabinetTimisoara: false,
     title: "Cabinet Bocșa",
-    address: "Bocșa, Str. Funicularului, nr. 77A",
+    address: "Bocșa, Str. Carpati, nr. 2, Bl. 2",
     schedule: [
       {
         doctor: "Dr. Olariu Ioan",

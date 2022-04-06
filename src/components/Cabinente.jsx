@@ -158,57 +158,64 @@ export default function Cabinete() {
     locationUrl: "https://g.page/CardiologieBocsa?share",
     images: [
       {
-        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet_bocsa_empty.jpeg?raw=true",
-        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet_bocsa_empty.jpeg?raw=true",
+        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/intrare.jpeg?raw=true",
+        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/intrare.jpeg?raw=true",
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125
       },
       {
-        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_olariu_bocsa.jpeg?raw=true",
-        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_olariu_bocsa.jpeg?raw=true",
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare.jpg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare.jpg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125
       },
       {
-        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_lucuta_bocsa.jpeg?raw=true",
-        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/dr_lucuta_bocsa.jpeg?raw=true",
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare_1.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare_1.jpeg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125
       },
       {
-        src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa0.jpg?raw=true",
-        thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa0.jpg?raw=true",
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare_2.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare_2.jpeg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125
       },
       {
-        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa2.jpg?raw=true',
-        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa2.jpg?raw=true',
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare_3.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/sala_asteptare_3.jpeg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125
       },
       {
-        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa3.jpg?raw=true',
-        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa3.jpg?raw=true',
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet.jpeg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125
       },
       {
-        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa6.jpg?raw=true',
-        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa6.jpg?raw=true',
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet1.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet1.jpeg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125
       },
       {
-        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa7.jpg?raw=true',
-        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/bocsa7.jpg?raw=true',
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet2.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet2.jpeg?raw=true',
+        alt: "Poza cabinet Bocsa",
+        thumbnailWidth: 115,
+        thumbnailHeight: 125
+      },
+      {
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet3.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/cabinet3.jpeg?raw=true',
         alt: "Poza cabinet Bocsa",
         thumbnailWidth: 115,
         thumbnailHeight: 125

@@ -149,14 +149,23 @@ export default function Cabinete() {
       { doctorName1: "Dr. Olariu Ioan", doctorName2: "Dr. Lucuța Lavinia", title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "150 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter EKG/24H", ioan: "350 RON", lucuta: "300 RON" },
       { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "350 RON", lucuta: "300 RON" },
-      { title: "Consult cardiologic + EKG + Ecocardiografie Doppler/2D Color + Pulsoximetrie", ioan: "400 RON", lucuta: "300 RON" },
-      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", ioan: "450 RON", lucuta: "400 RON" }
+      { title: "Consult Cardiologic + EKG + Ecocardiografie Doppler 2D color + Pulsoximetrie", ioan: "400 RON", lucuta: "300 RON" },
+      { title: "Consult Cardiologic + Monitorizare Holter TA + EKG/24H", ioan: "450 RON", lucuta: "400 RON" },
+      { title: "Consult Cardiologic + Test de efort cardiovascular", ioan: "450 RON", lucuta: "450 RON" },
+      { title: "Consult Cardiologic + EKG + Ecocardiografie Doppler 2D color + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "650 RON", lucuta: "550 RON" },
     ],
     paddingTopTable: 0 + "em",
     paddingBottomTable: 0.5 + "em",
     anchorId: 'bocsaMap',
     locationUrl: "https://g.page/CardiologieBocsa?share",
     images: [
+      {
+        src: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/pancarda.jpeg?raw=true',
+        thumbnail: 'https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/pancarda.jpeg?raw=true',
+        alt: "Poza cabinet Bocsa",
+        thumbnailWidth: 115,
+        thumbnailHeight: 125
+      },
       {
         src: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/intrare.jpeg?raw=true",
         thumbnail: "https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/cabinetBocsa/intrare.jpeg?raw=true",
@@ -229,7 +238,7 @@ export default function Cabinete() {
         <div
           style={{
             float: "left",
-            maxWidth: 350 + "px",
+            maxWidth: 430 + "px",
           }}
         >
           <Cabinet
@@ -240,7 +249,7 @@ export default function Cabinete() {
         <div
           style={{
             float: "right",
-            maxWidth: 350 + "px",
+            maxWidth: 430 + "px",
           }}
         >
           <Cabinet

@@ -152,6 +152,8 @@ export default function Description() {
 
       </div>
 
+      <hr/>
+
       <div style={{ clear: "both" }}> </div>
 
       <div style={flexcontainer}>

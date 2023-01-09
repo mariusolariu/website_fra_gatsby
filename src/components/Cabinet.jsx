@@ -121,9 +121,6 @@ export default function Cabinet({
               </div>
 
             </th>
-            <th style={tdStyle}>
-              {services[0].doctorName2}
-            </th>
           </tr>
           {
             services.map((service, index) => {
@@ -135,7 +132,6 @@ export default function Cabinet({
                   }>
                   <td style={tdStyle}>{service.title}</td>
                   <td style={tdStyle}>{service.ioan}</td>
-                  <td style={tdStyle}>{service.lucuta}</td>
                 </tr>);
             })
           }

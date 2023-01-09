@@ -8,11 +8,6 @@ export default function Cabinete() {
     address: "Timișoara, Bulevardul Cetății, nr. 77",
     schedule: [
       {
-        doctor: "Dr. Lucuța Lavinia",
-        weekDay: "Luni",
-        workHours: "10:00 - 15:00"
-      },
-      {
         doctor: "Dr. Olariu Ioan",
         weekDay: "Luni",
         workHours: "15:00 - 17:00"
@@ -28,11 +23,6 @@ export default function Cabinete() {
         workHours: "16:00 - 19:00"
       },
       {
-        doctor: "Dr. Lucuța Lavinia",
-        weekDay: "Vineri",
-        workHours: "10:00 - 15:00"
-      },
-      {
         doctor: "Dr. Olariu Ioan",
         weekDay: "Vineri",
         workHours: "15:00 - 17:00"
@@ -41,13 +31,13 @@ export default function Cabinete() {
     ],
     appoinmentsPhoneNumbers: "0740 384 798, 0742 421 032",
     services: [
-      { doctorName1: "Dr. Olariu Ioan / Dr. C. Ruxandra", doctorName2: "Dr. Lucuța Lavinia", title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "200 RON" },
-      { title: "Consult cardiologic + Monitorizare Holter Ekg/24H", ioan: "400 RON", lucuta: "350 RON" },
-      { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "400 RON", lucuta: "300 RON" },
-      { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie", ioan: "450 RON", lucuta: "350 RON" },
-      { title: "Consult cardiologic + EKG + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "450 RON", lucuta: "450 RON" },
-      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", ioan: "500 RON", lucuta: "400 RON" },
-      { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "650 RON", lucuta: "550 RON" },
+      { doctorName1: "Dr. Olariu Ioan / Dr. C. Ruxandra", title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON" },
+      { title: "Consult cardiologic + Monitorizare Holter Ekg/24H", ioan: "400 RON" },
+      { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "400 RON" },
+      { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie", ioan: "450 RON" },
+      { title: "Consult cardiologic + EKG + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "450 RON" },
+      { title: "Consult cardiologic + Monitorizarea Holter EKG + TA/24H", ioan: "500 RON" },
+      { title: "Consult cardiologic + EKG +  Ecocardiografie Doppler/2D Color + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "650 RON" },
     ],
     paddingTopTable: 0.35 + "em",
     paddingBottomTable: 0.5 + "em",
@@ -137,22 +127,17 @@ export default function Cabinete() {
         doctor: "Dr. Olariu Ioan",
         weekDay: "Miercuri",
         workHours: "15:00 - 17:00"
-      },
-      {
-        doctor: "Dr. Lucuța Lavinia",
-        weekDay: "Joi",
-        workHours: "13:00 - 17:00"
       }
     ],
     appoinmentsPhoneNumbers: "0740 016 561, 0742 421 032",
     services: [
-      { doctorName1: "Dr. Olariu Ioan", doctorName2: "Dr. Lucuța Lavinia", title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON", lucuta: "150 RON" },
-      { title: "Consult Cardiologic + Monitorizare Holter EKG/24H", ioan: "350 RON", lucuta: "300 RON" },
-      { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "350 RON", lucuta: "300 RON" },
-      { title: "Consult Cardiologic + EKG + Ecocardiografie Doppler 2D color + Pulsoximetrie", ioan: "400 RON", lucuta: "300 RON" },
-      { title: "Consult Cardiologic + Monitorizare Holter TA + EKG/24H", ioan: "450 RON", lucuta: "400 RON" },
-      { title: "Consult Cardiologic + Test de efort cardiovascular", ioan: "450 RON", lucuta: "450 RON" },
-      { title: "Consult Cardiologic + EKG + Ecocardiografie Doppler 2D color + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "650 RON", lucuta: "550 RON" },
+      { doctorName1: "Dr. Olariu Ioan", title: "Consult cardiologic + EKG + Pulsoximetrie", ioan: "250 RON" },
+      { title: "Consult Cardiologic + Monitorizare Holter EKG/24H", ioan: "350 RON" },
+      { title: "Consult Cardiologic + Monitorizare Holter TA/24H", ioan: "350 RON" },
+      { title: "Consult Cardiologic + EKG + Ecocardiografie Doppler 2D color + Pulsoximetrie", ioan: "400 RON" },
+      { title: "Consult Cardiologic + Monitorizare Holter TA + EKG/24H", ioan: "450 RON" },
+      { title: "Consult Cardiologic + Test de efort cardiovascular", ioan: "450 RON" },
+      { title: "Consult Cardiologic + EKG + Ecocardiografie Doppler 2D color + Pulsoximetrie + Test de Efort Cardiovascular", ioan: "650 RON" },
     ],
     paddingTopTable: 0 + "em",
     paddingBottomTable: 0.5 + "em",

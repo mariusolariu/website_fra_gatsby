@@ -34,7 +34,7 @@ const tableWithPricesCozma = (isCabinetTimisoaraData) => {
         </tr>
         <tr style={greyBackground}>
           <td>Consult cardiologic</td>
-          <td>500 RON</td>
+          <td>600 RON</td>
         </tr>
       </tbody>
     </table>

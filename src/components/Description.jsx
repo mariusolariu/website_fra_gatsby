@@ -1,7 +1,7 @@
 import React from "react";
 import DrOlariu from "./imageComponents/doctors/DrOlariu";
 import DrCozma from "./imageComponents/doctors/DrCozma";
-import DrLucuta from "./imageComponents/doctors/DrLucuta";
+import DrCirin from "./imageComponents/doctors/DrCirin";
 import DrChristodorescu from "./imageComponents/doctors/DrChristodorescu";
 
 export default function Description() {
@@ -128,7 +128,7 @@ export default function Description() {
         {/* LUCUTA */}
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>
-            <strong>Dr. Lucuța Lavinia</strong>
+            <strong>Dr. Cirin Liviu </strong>
           </div>
 
 
@@ -140,12 +140,12 @@ export default function Description() {
             float: "left",
             marginRight: "0.5em"
           }}>
-            <DrLucuta />
+            <DrCirin />
           </div>
 
           <div style={{ float: "right" }}>
             Medic Specialist Cardiolog<br />
-            Competență în Ecocardiografie<br />
+            <br />
           </div>
 
         </div>

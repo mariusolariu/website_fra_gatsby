@@ -125,10 +125,11 @@ export default function Description() {
         </div>
 
 
-        {/* LUCUTA */}
+        {/* Cirin */}
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>
             <strong>Dr. Cirin Liviu </strong>
+            Competență în Ecocardiografie<br />
           </div>
 
 

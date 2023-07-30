@@ -129,7 +129,6 @@ export default function Description() {
         <div style={flexitem}>
           <div style={{ "text-align": "center" }}>
             <strong>Dr. Cirin Liviu </strong>
-            Competență în Ecocardiografie<br />
           </div>
 
 
@@ -146,6 +145,7 @@ export default function Description() {
 
           <div style={{ float: "right" }}>
             Medic Specialist Cardiolog<br />
+            Competență în Ecocardiografie<br />
             <br />
           </div>
 

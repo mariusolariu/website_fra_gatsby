@@ -82,6 +82,11 @@ export default function Description() {
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/CabinetCardiologic/?eid=ARBXsJA-PukiHIlKczHx4WirPc30MQ0lPCoO9cfPhPEVz_GqmOxPip8yAFACwY-ZR3fGhpRtel-bnhXM">Vezi pagina de Facebook a cabinetului</a> <br />
         <a target="_blank" rel="noreferrer" href="https://www.soimiisanatatii.ro/profile-94603-cmp/">Vezi profilul cabinetului pe șoimiisănătații.ro</a> <br />
 
+        <a href="https://www.olariu-med.ro" target="_blank">
+          <img src="https://github.com/mariusolariu/website_fra_gatsby/blob/master/src/images/clinica-olariu-timisoara.tiff?raw=true" style={{ width: 300 + "px", height: 130 + "px", marginTop: "4%" }} alt="Cabinet Medical Cardiologie Dr. Olariu Ioan - Timisoara" title="Vezi pagina principală a clinici din Timișoara">
+          </img>
+        </a>
+
         <a href="https://www.soimiisanatatii.ro/profile-94603-cmp/" target="_blank">
           <img src="https://www.soimiisanatatii.ro/images/medals/laureat300_black_2_ro.png" style={{ width: 300 + "px", height: 130 + "px", marginTop: "4%" }} alt="Cabinet Medical Cardiologie Dr. Olariu Ioan - Timisoara" title="Cabinet Medical Cardiologie Dr. Olariu Ioan - Timisoara">
           </img>

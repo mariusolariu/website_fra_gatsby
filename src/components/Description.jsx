@@ -71,86 +71,6 @@ export default function Description() {
 
         </div>
 
-        {/* COZMA */}
-        <div style={flexitem}>
-          <div style={{ "text-align": "center" }}>
-            <strong>Conf. Dr. Cozma Dragoș</strong>
-          </div>
-
-
-          <div style={{
-            height: 95 + "px",
-            maxHeight: 95 + "px",
-            width: 90 + "px",
-            maxWidth: 90 + "px",
-            float: "left",
-            marginRight: "0.5em"
-          }}>
-            <DrCozma />
-          </div>
-
-          <div style={{ float: "right" }}>
-            Medic Primar Cardiolog<br />
-            Institutul de Boli Cardiovasculare Timișoara<br />
-            Competență în Electrofiziologie, Pacing-Stimulatoare si Defibrilatoare Cardiace<br />
-            Competență în Ecocardiografie<br />
-          </div>
-
-        </div>
-
-        {/* Christodorescu */}
-        <div style={flexitem}>
-          <div style={{ "text-align": "center" }}>
-            <strong>Dr. Christodorescu Ruxandra</strong>
-          </div>
-
-
-          <div style={{
-            height: 84 + "px",
-            maxHeight: 84 + "px",
-            width: 85 + "px",
-            maxWidth: 85 + "px",
-            float: "left",
-            marginRight: "0.5em"
-          }}>
-            <DrChristodorescu />
-          </div>
-
-          <div style={{ float: "right" }}>
-            Medic Primar Cardiolog<br />
-            Spitalul Municipal de Urgență Timișoara<br />
-            Competență în Ecocardiografie și Ecografie Vasculară<br />
-          </div>
-
-        </div>
-
-
-        {/* Cirin */}
-        <div style={flexitem}>
-          <div style={{ "text-align": "center" }}>
-            <strong>Dr. Cirin Liviu </strong>
-          </div>
-
-
-          <div style={{
-            height: 84 + "px",
-            maxHeight: 84 + "px",
-            width: 85 + "px",
-            maxWidth: 85 + "px",
-            float: "left",
-            marginRight: "0.5em"
-          }}>
-            <DrCirin />
-          </div>
-
-          <div style={{ float: "right" }}>
-            Medic Specialist Cardiolog<br />
-            Competență în Ecocardiografie<br />
-            <br />
-          </div>
-
-        </div>
-
       </div>
 
       <hr/>
@@ -158,6 +78,7 @@ export default function Description() {
       <div style={{ clear: "both" }}> </div>
 
       <div style={flexcontainer}>
+        <a target="_blank" rel="noreferrer" href="https://www.olariu-med.ro">Vezi pagina principala a clinicii din Timisoara</a> <br />
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/CabinetCardiologic/?eid=ARBXsJA-PukiHIlKczHx4WirPc30MQ0lPCoO9cfPhPEVz_GqmOxPip8yAFACwY-ZR3fGhpRtel-bnhXM">Vezi pagina de Facebook a cabinetului</a> <br />
         <a target="_blank" rel="noreferrer" href="https://www.soimiisanatatii.ro/profile-94603-cmp/">Vezi profilul cabinetului pe soimiisanatatii.ro</a> <br />
 

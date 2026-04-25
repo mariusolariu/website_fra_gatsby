@@ -4,6 +4,7 @@ import Topbar from "../components/Topbar";
 import Hero from "../components/Hero";
 import Steps from "../components/Steps";
 import About from "../components/About";
+import ParentClinicBanner from "../components/ParentClinicBanner";
 import Visit from "../components/Visit";
 import MapEmbed from "../components/MapEmbed";
 import Services from "../components/Services";
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero />
         <Steps />
         <About />
+        <ParentClinicBanner />
         <Visit />
         <MapEmbed />
         <Services />

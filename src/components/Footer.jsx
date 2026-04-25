@@ -30,7 +30,7 @@ export default function Footer() {
             <a href="#servicii">Servicii și tarife</a>
           </div>
           <div className="footer-row">
-            <a href="https://www.olariu-med.ro" target="_blank" rel="noreferrer">
+            <a href="https://www.olariu-med.ro">
               Clinica din Timișoara
             </a>
           </div>

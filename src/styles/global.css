@@ -186,7 +186,7 @@ strong { font-weight: 700; color: var(--ink); }
 .hero-inner {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: clamp(40px, 7vw, 80px) var(--gutter) clamp(50px, 8vw, 100px);
+  padding: clamp(40px, 5.5vw, 60px) var(--gutter) clamp(44px, 6vw, 70px);
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: clamp(28px, 5vw, 56px);
@@ -295,11 +295,11 @@ strong { font-weight: 700; color: var(--ink); }
 .section {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: clamp(50px, 8vw, 90px) var(--gutter);
+  padding: clamp(44px, 6vw, 64px) var(--gutter);
 }
 .section-tight {
-  padding-top: clamp(30px, 5vw, 50px);
-  padding-bottom: clamp(30px, 5vw, 50px);
+  padding-top: clamp(26px, 3.5vw, 36px);
+  padding-bottom: clamp(26px, 3.5vw, 36px);
 }
 .section-banded {
   background: var(--bg-soft);
@@ -309,8 +309,37 @@ strong { font-weight: 700; color: var(--ink); }
 .section-banded > .section-inner {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: clamp(50px, 8vw, 90px) var(--gutter);
+  padding: clamp(44px, 6vw, 64px) var(--gutter);
 }
+
+/* ===== Parent clinic banner (link to Clinica Olariu Med Timișoara) ===== */
+.parent-clinic-banner {
+  background: var(--primary-soft);
+  border-top: 1px solid var(--primary-line);
+  border-bottom: 1px solid var(--primary-line);
+}
+.parent-clinic-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: clamp(18px, 2.5vw, 26px) var(--gutter);
+  text-align: center;
+}
+.parent-clinic-banner p {
+  margin: 0;
+  font-size: var(--fs-lg);
+  color: var(--ink);
+}
+@media (min-width: 700px) {
+  .parent-clinic-banner p { white-space: nowrap; }
+}
+.parent-clinic-link {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+.parent-clinic-link:hover { text-decoration: none; }
 .section-head {
   margin-bottom: clamp(28px, 4vw, 48px);
   text-align: center;
@@ -782,12 +811,12 @@ strong { font-weight: 700; color: var(--ink); }
 @media (max-width: 880px) {
   :root { --vp-scale: 0.82; }
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-photo { aspect-ratio: 4/3; max-width: 480px; margin: 0 auto; }
+  .hero-photo { aspect-ratio: 1/1; max-width: 480px; width: 100%; margin: 0 auto; }
   .hero h1 { font-size: clamp(34px, 9vw, 48px); }
   .hero p.lead { max-width: none; }
   .steps { grid-template-columns: 1fr; }
   .about { grid-template-columns: 1fr; }
-  .about-photo { max-width: 360px; aspect-ratio: 1/1; margin: 0 auto; }
+  .about-photo { max-width: 360px; aspect-ratio: 1/1; width: 100%; margin: 0 auto; }
   .visit { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; }
   .profile-strip { grid-template-columns: 1fr; }

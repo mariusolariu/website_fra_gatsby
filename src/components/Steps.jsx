@@ -25,8 +25,8 @@ export default function Steps() {
           <div className="step-num">2</div>
           <h3>Veniți la cabinet</h3>
           <p>
-            Aduceți buletinul, biletul de trimitere (dacă aveți) și actele medicale anterioare.
-            Cabinetul este în Bocșa, str. Carpați nr. 2.
+            Aduceți buletinul, actele medicale anterioare și lista de medicamente pe care le
+            luați împreună cu dozele. Cabinetul este în Bocșa, str. Carpați nr. 2.
           </p>
           <a href="#vizita">Vezi adresa →</a>
         </div>

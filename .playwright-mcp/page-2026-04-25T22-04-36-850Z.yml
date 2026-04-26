@@ -1,0 +1,256 @@
+- generic [ref=e3]:
+  - link "Sari la conținut" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "Cabinet Cardiologie Dr. Olariu Ioan" [ref=e7] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e8]: O
+        - generic [ref=e9]:
+          - generic [ref=e10]: Dr. Olariu Ioan
+          - generic [ref=e11]: Cabinet de Cardiologie · Bocșa
+      - generic [ref=e12]:
+        - button "Setări de accesibilitate" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - generic [ref=e17]: Aa
+        - link "Sunați pentru programare la 0740 016 561" [ref=e18] [cursor=pointer]:
+          - /url: tel:+40740016561
+          - img [ref=e20]
+          - text: "Programări: 0740 016 561"
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Medic Primar Cardiolog
+        - heading "Sănătatea inimii dumneavoastră, în mâini bune." [level=1] [ref=e27]
+        - paragraph [ref=e28]: Consultații cardiologice de specialitate la cabinetul din Bocșa. Programări simple, prin telefon.
+        - generic [ref=e29]:
+          - link "Sunați acum" [ref=e30] [cursor=pointer]:
+            - /url: tel:+40740016561
+            - img [ref=e32]
+            - text: Sunați acum
+          - link "Vezi adresa și programul" [ref=e34] [cursor=pointer]:
+            - /url: "#vizita"
+            - img [ref=e36]
+            - text: Vezi adresa și programul
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - img [ref=e42]
+          - img "Dr. Olariu Ioan, medic primar cardiolog" [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e45]: Dr. Olariu Ioan
+          - generic [ref=e46]: Medic Primar Cardiolog
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]: În 3 pași simpli
+        - heading "Cum vă programați la consult" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Nu este nevoie de internet sau formulare. Sunați la telefon, alegem împreună o dată, și veniți la cabinet.
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: "1"
+          - heading "Sunați la telefon" [level=3] [ref=e55]
+          - paragraph [ref=e56]: Vă răspunde personalul cabinetului și vă propune o zi de miercuri când domnul doctor are program.
+          - link "0740 016 561" [ref=e57] [cursor=pointer]:
+            - /url: tel:+40740016561
+        - generic [ref=e58]:
+          - generic [ref=e59]: "2"
+          - heading "Veniți la cabinet" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Aduceți buletinul, biletul de trimitere (dacă aveți) și actele medicale anterioare. Cabinetul este în Bocșa, str. Carpați nr. 2.
+          - link "Vezi adresa →" [ref=e62] [cursor=pointer]:
+            - /url: "#vizita"
+        - generic [ref=e63]:
+          - generic [ref=e64]: "3"
+          - heading "Consultul propriu-zis" [level=3] [ref=e65]
+          - paragraph [ref=e66]: Examen clinic, EKG și, după caz, ecocardiografie. La final primiți o scrisoare medicală cu diagnostic și tratament.
+          - link "Vezi servicii →" [ref=e67] [cursor=pointer]:
+            - /url: "#servicii"
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - img [ref=e74]
+        - img "Portret Dr. Olariu Ioan" [ref=e75]
+      - generic [ref=e76]:
+        - generic [ref=e77]: Despre medic
+        - heading "Dr. Olariu Ioan" [level=2] [ref=e78]
+        - paragraph [ref=e79]:
+          - text: Medic primar cardiolog cu experiență vastă în tratamentul intervențional al bolilor cardiovasculare, dobândită la
+          - strong [ref=e80]: Institutul de Boli Cardiovasculare din Timișoara
+          - text: .
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - img [ref=e84]
+            - strong [ref=e87]: Medic Primar Cardiolog
+          - listitem [ref=e88]:
+            - img [ref=e90]
+            - generic [ref=e92]: Institutul de Boli Cardiovasculare Timișoara
+          - listitem [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e97]: Competență în Cardiologie Invazivă
+          - listitem [ref=e98]:
+            - img [ref=e100]
+            - generic [ref=e102]: Competență în Ecocardiografie
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]: Vizita la cabinet
+        - heading "Adresă, program și programări" [level=2] [ref=e106]
+        - paragraph [ref=e107]: Toate informațiile de care aveți nevoie ca să ajungeți la cabinet.
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - heading "Unde ne găsiți" [level=3] [ref=e110]:
+            - img [ref=e112]
+            - text: Unde ne găsiți
+          - paragraph [ref=e115]:
+            - strong [ref=e116]: Bocșa
+            - text: ", Str. Carpați, nr. 2, Bl. 2"
+          - paragraph [ref=e117]: Județul Caraș-Severin
+          - link "Arată locația pe hartă" [ref=e118] [cursor=pointer]:
+            - /url: "#harta"
+            - img [ref=e120]
+            - text: Arată locația pe hartă
+        - generic [ref=e122]:
+          - heading "Programul cabinetului" [level=3] [ref=e123]:
+            - img [ref=e125]
+            - text: Programul cabinetului
+          - generic [ref=e128]:
+            - generic [ref=e129]: Luni
+            - generic [ref=e130]: închis
+          - generic [ref=e131]:
+            - generic [ref=e132]: Marți
+            - generic [ref=e133]: închis
+          - generic [ref=e134]:
+            - generic [ref=e135]: Miercuri
+            - generic [ref=e136]: 15:00 — 17:00
+          - generic [ref=e137]:
+            - generic [ref=e138]: Joi
+            - generic [ref=e139]: închis
+          - generic [ref=e140]:
+            - generic [ref=e141]: Vineri
+            - generic [ref=e142]: închis
+          - generic [ref=e143]:
+            - generic [ref=e144]: Sâmbătă
+            - generic [ref=e145]: închis
+          - generic [ref=e146]:
+            - generic [ref=e147]: Duminică
+            - generic [ref=e148]: închis
+        - generic [ref=e149]:
+          - heading "Pentru programări sunați la" [level=3] [ref=e150]:
+            - img [ref=e152]
+            - text: Pentru programări sunați la
+          - link "0740 016 561" [ref=e154] [cursor=pointer]:
+            - /url: tel:+40740016561
+          - paragraph [ref=e155]: Vă răspundem în zilele lucrătoare. Programările se fac din timp.
+    - iframe [ref=e158]:
+      
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: Servicii și tarife
+        - heading "Ce investigații se fac la cabinet" [level=2] [ref=e163]
+        - paragraph [ref=e164]: Tarifele de mai jos sunt valabile la cabinetul din Bocșa. Plata se face la cabinet, în numerar.
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]: Consult cardiologic + EKG + Pulsoximetrie
+          - generic [ref=e168]: 400 RON
+        - generic [ref=e169]:
+          - generic [ref=e170]: Consult cardiologic + EKG + Ecocardiografie Doppler 2D Color + Pulsoximetrie
+          - generic [ref=e171]: 600 RON
+        - generic [ref=e172]:
+          - generic [ref=e173]: Consult cardiologic + Test de efort cardiovascular
+          - generic [ref=e174]: 650 RON
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: Cabinetul
+        - heading "Cum arată cabinetul din Bocșa" [level=2] [ref=e178]
+        - paragraph [ref=e179]: Apăsați pe orice fotografie pentru a o vedea mai mare.
+      - generic [ref=e180]:
+        - 'button "Mărește: Pancarda exterioară a cabinetului" [ref=e181]':
+          - generic [ref=e182]:
+            - img [ref=e184]
+            - img "Pancarda exterioară a cabinetului" [ref=e185]
+        - 'button "Mărește: Intrare în cabinet" [ref=e186]':
+          - generic [ref=e187]:
+            - img [ref=e189]
+            - img "Intrare în cabinet" [ref=e190]
+        - 'button "Mărește: Sala de așteptare" [ref=e191]':
+          - generic [ref=e192]:
+            - img [ref=e194]
+            - img "Sala de așteptare" [ref=e195]
+        - 'button "Mărește: Sala de așteptare" [ref=e196]':
+          - generic [ref=e197]:
+            - img [ref=e199]
+            - img "Sala de așteptare" [ref=e200]
+        - 'button "Mărește: Sala de așteptare" [ref=e201]':
+          - generic [ref=e202]:
+            - img [ref=e204]
+            - img "Sala de așteptare" [ref=e205]
+        - 'button "Mărește: Sala de așteptare" [ref=e206]':
+          - generic [ref=e207]:
+            - img [ref=e209]
+            - img "Sala de așteptare" [ref=e210]
+        - 'button "Mărește: Interiorul cabinetului" [ref=e211]':
+          - generic [ref=e212]:
+            - img [ref=e214]
+            - img "Interiorul cabinetului" [ref=e215]
+        - 'button "Mărește: Interiorul cabinetului" [ref=e216]':
+          - generic [ref=e217]:
+            - img [ref=e219]
+            - img "Interiorul cabinetului" [ref=e220]
+        - 'button "Mărește: Interiorul cabinetului" [ref=e221]':
+          - generic [ref=e222]:
+            - img [ref=e224]
+            - img "Interiorul cabinetului" [ref=e225]
+        - 'button "Mărește: Interiorul cabinetului" [ref=e226]':
+          - generic [ref=e227]:
+            - img [ref=e229]
+            - img "Interiorul cabinetului" [ref=e230]
+    - generic [ref=e232]:
+      - generic [ref=e233]:
+        - generic [ref=e234]: Întrebări frecvente
+        - heading "Răspunsuri la cele mai dese întrebări" [level=2] [ref=e235]
+        - paragraph [ref=e236]: Apăsați pe o întrebare ca să vedeți răspunsul.
+      - generic [ref=e237]:
+        - group [ref=e238]:
+          - generic "Ce trebuie să aduc cu mine la consult?" [ref=e239] [cursor=pointer]:
+            - text: Ce trebuie să aduc cu mine la consult?
+            - generic [ref=e240]: ▾
+        - group [ref=e241]:
+          - generic "Cu cât timp înainte trebuie să mă programez?" [ref=e242] [cursor=pointer]:
+            - text: Cu cât timp înainte trebuie să mă programez?
+            - generic [ref=e243]: ▾
+        - group [ref=e244]:
+          - generic "Există loc de parcare?" [ref=e245] [cursor=pointer]:
+            - text: Există loc de parcare?
+            - generic [ref=e246]: ▾
+    - generic [ref=e248]:
+      - link "Pagina de Facebook Vedeți noutăți și anunțuri" [ref=e249] [cursor=pointer]:
+        - /url: https://www.facebook.com/clinicaolariumedtimisoara/
+        - img [ref=e251]
+        - generic [ref=e253]:
+          - generic [ref=e254]: Pagina de Facebook
+          - generic [ref=e255]: Vedeți noutăți și anunțuri
+      - link "Profil pe șoimiisănătății.ro Recenzii și informații suplimentare" [ref=e256] [cursor=pointer]:
+        - /url: https://www.soimiisanatatii.ro/profile-94603-cmp/
+        - img [ref=e258]
+        - generic [ref=e260]:
+          - generic [ref=e261]: Profil pe șoimiisănătății.ro
+          - generic [ref=e262]: Recenzii și informații suplimentare
+  - contentinfo [ref=e263]:
+    - generic [ref=e264]:
+      - generic [ref=e265]:
+        - heading "Cabinet Cardiologie Dr. Olariu Ioan" [level=4] [ref=e266]
+        - paragraph [ref=e267]: Cabinet medical de cardiologie pentru pacienții din Bocșa și împrejurimi.
+        - paragraph [ref=e268]:
+          - text: În caz de urgență, sunați la
+          - strong [ref=e269]: "112"
+          - text: .
+      - generic [ref=e270]:
+        - heading "Contact" [level=4] [ref=e271]
+        - link "0740 016 561" [ref=e273] [cursor=pointer]:
+          - /url: tel:+40740016561
+        - generic [ref=e274]: Bocșa, Str. Carpați, nr. 2, Bl. 2
+      - generic [ref=e275]:
+        - heading "Linkuri" [level=4] [ref=e276]
+        - link "Adresa și programul" [ref=e278] [cursor=pointer]:
+          - /url: "#vizita"
+        - link "Servicii și tarife" [ref=e280] [cursor=pointer]:
+          - /url: "#servicii"
+        - link "Clinica din Timișoara" [ref=e282] [cursor=pointer]:
+          - /url: https://www.olariu-med.ro
+    - generic [ref=e283]: © 2026 Cabinet Cardiologie Dr. Olariu Ioan. Toate drepturile rezervate.

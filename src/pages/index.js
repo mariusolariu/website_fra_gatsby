@@ -23,10 +23,10 @@ export default function Home() {
         <Hero />
         <Steps />
         <About />
+        <Services />
         <ParentClinicBanner />
         <Visit />
         <MapEmbed />
-        <Services />
         <Gallery />
         <Faq />
         <Profiles />

@@ -8,15 +8,22 @@ export default function Hero() {
     query HeroPhotoQuery {
       file(relativePath: { eq: "doctors/dr_olariu.jpeg" }) {
         childImageSharp {
-          fluid(maxWidth: 900, quality: 80) {
-            ...GatsbyImageSharpFluid
+          fluid(
+            maxWidth: 720
+            quality: 72
+            srcSetBreakpoints: [240, 360, 480, 720]
+          ) {
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
     }
   `);
 
-  const fluid = data.file.childImageSharp.fluid;
+  const fluid = {
+    ...data.file.childImageSharp.fluid,
+    sizes: "(max-width: 880px) min(92vw, 480px), 42vw",
+  };
 
   return (
     <section className="hero">
@@ -44,7 +51,12 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-photo">
-          <Img fluid={fluid} alt="Dr. Olariu Ioan, medic primar cardiolog" />
+          <Img
+            fluid={fluid}
+            alt="Dr. Olariu Ioan, medic primar cardiolog"
+            loading="eager"
+            fadeIn={false}
+          />
           <div className="caption">
             <div className="name">Dr. Olariu Ioan</div>
             <div className="role">Medic Primar Cardiolog</div>

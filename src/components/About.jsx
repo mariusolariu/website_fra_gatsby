@@ -15,15 +15,22 @@ export default function About() {
     query AboutPhotoQuery {
       file(relativePath: { eq: "doctors/dr_olariu.jpeg" }) {
         childImageSharp {
-          fluid(maxWidth: 700, quality: 80) {
-            ...GatsbyImageSharpFluid
+          fluid(
+            maxWidth: 560
+            quality: 72
+            srcSetBreakpoints: [240, 360, 480, 560]
+          ) {
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
     }
   `);
 
-  const fluid = data.file.childImageSharp.fluid;
+  const fluid = {
+    ...data.file.childImageSharp.fluid,
+    sizes: "(max-width: 880px) min(86vw, 360px), 42vw",
+  };
 
   return (
     <section className="section-banded">

@@ -49,8 +49,31 @@ export default function Gallery() {
 
   const [openIndex, setOpenIndex] = useState(null);
   const triggerRefs = useRef([]);
+  const touchStart = useRef(null);
 
   const isOpen = openIndex !== null;
+
+  const SWIPE_THRESHOLD_PX = 45;
+
+  const handleTouchStart = (e) => {
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY };
+  };
+
+  const handleTouchEnd = (e) => {
+    if (!touchStart.current) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touchStart.current.x;
+    const dy = t.clientY - touchStart.current.y;
+    touchStart.current = null;
+    if (Math.abs(dx) < SWIPE_THRESHOLD_PX) return;
+    if (Math.abs(dy) > Math.abs(dx)) return;
+    if (dx < 0) {
+      setOpenIndex((i) => (i + 1) % images.length);
+    } else {
+      setOpenIndex((i) => (i - 1 + images.length) % images.length);
+    }
+  };
 
   useEffect(() => {
     if (!isOpen) return undefined;
@@ -127,6 +150,8 @@ export default function Gallery() {
         aria-modal="true"
         aria-label="Galerie foto"
         onClick={handleBackdropClick}
+        onTouchStart={isOpen ? handleTouchStart : undefined}
+        onTouchEnd={isOpen ? handleTouchEnd : undefined}
       >
         {isOpen && (
           <>

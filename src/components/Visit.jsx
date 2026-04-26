@@ -4,7 +4,7 @@ import { MapPinIcon, ClockIcon, PhoneIcon, SendIcon } from "./Icons";
 const SCHEDULE = [
   { day: "Luni", hours: "închis", closed: true },
   { day: "Marți", hours: "închis", closed: true },
-  { day: "Miercuri", hours: "15:00 — 17:00", highlight: true },
+  { day: "Miercuri", hours: "16:00 — 18:00", highlight: true },
   { day: "Joi", hours: "închis", closed: true },
   { day: "Vineri", hours: "închis", closed: true },
   { day: "Sâmbătă", hours: "închis", closed: true },

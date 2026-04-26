@@ -22,7 +22,7 @@ export default function Faq() {
                 • Cartea de identitate (buletinul)<br />
                 • Analize și documente medicale anterioare (EKG-uri, scrisori medicale,
                 ecografii)<br />
-                • Lista cu medicamentele pe care le luați zilnic
+                • Istoricul medical
               </p>
             </div>
           </details>

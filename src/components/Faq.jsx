@@ -20,7 +20,6 @@ export default function Faq() {
               <p>Vă rugăm să aduceți:</p>
               <p>
                 • Cartea de identitate (buletinul)<br />
-                • Biletul de trimitere de la medicul de familie, dacă aveți<br />
                 • Analize și documente medicale anterioare (EKG-uri, scrisori medicale,
                 ecografii)<br />
                 • Lista cu medicamentele pe care le luați zilnic

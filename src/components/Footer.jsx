@@ -10,9 +10,6 @@ export default function Footer() {
           <p className="footer-tag-muted">
             Cabinet medical de cardiologie pentru pacienții din Bocșa și împrejurimi.
           </p>
-          <p className="footer-tag-tiny">
-            În caz de urgență, sunați la <strong>112</strong>.
-          </p>
         </div>
         <div>
           <h4>Contact</h4>

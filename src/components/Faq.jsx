@@ -50,12 +50,6 @@ export default function Faq() {
                 Da, există spații de parcare pe stradă și în apropierea blocului 2 de pe strada
                 Carpați. Accesul în cabinet se face de la parter.
               </p>
-              <p>
-                <strong>
-                  În caz de urgență (durere puternică în piept, dificultăți de respirație, leșin)
-                  sunați imediat la 112.
-                </strong>
-              </p>
             </div>
           </details>
         </div>

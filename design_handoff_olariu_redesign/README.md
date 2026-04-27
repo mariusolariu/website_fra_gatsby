@@ -38,7 +38,7 @@ If migrating to a newer framework is preferred (e.g., Astro or Next.js for bette
 8. **Photo gallery** — 10 photos of the cabinet, click to open lightbox with prev/next/Esc keyboard support.
 9. **FAQ** — 4 collapsible items (placeholders for clinic to review).
 10. **External profiles** — Facebook + șoimiisănătății profile cards.
-11. **Footer** — contact info, quick links, 112 emergency note.
+11. **Footer** — contact info, quick links
 
 ## Design tokens
 
@@ -190,14 +190,13 @@ Use native `<details>/<summary>`. Chevron rotates 180° when open.
 
 3. **Există loc de parcare?**
    > Da, există spații de parcare pe stradă și în apropierea blocului 2 de pe strada Carpați. Accesul în cabinet se face de la parter.
-   > **În caz de urgență (durere puternică în piept, dificultăți de respirație, leșin) sunați imediat la 112.**
 
 ### External profiles
 - Facebook: `https://www.facebook.com/CabinetCardiologic/` — title "Pagina de Facebook" / sub "Vedeți noutăți și anunțuri"
 - șoimiisănătății: `https://www.soimiisanatatii.ro/profile-94603-cmp/` — title "Profil pe șoimiisănătății.ro" / sub "Recenzii și informații suplimentare"
 
 ### Footer
-- Column 1: brand line + 112 emergency note.
+- Column 1: brand line
 - Column 2: phone `0740 016 561`, address.
 - Column 3: anchor links (Adresa, Servicii, Clinica din Timișoara → `https://www.olariu-med.ro`).
 - Bottom strip: `© <year> Cabinet Cardiologie Dr. Olariu Ioan. Toate drepturile rezervate.`
